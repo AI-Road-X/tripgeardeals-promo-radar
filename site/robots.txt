@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://branddealradar.com/sitemap.xml

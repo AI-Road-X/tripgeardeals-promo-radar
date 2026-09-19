@@ -1,0 +1,30 @@
+::ILANG
+[TYPE:config][PROJECT:tripgeardeals][LANG:zh]
+::STATE{@SITE, brand:tripgeardeals, niche:US travel gear and services, domain:https://branddealradar.com, locale:en-US}
+::MODULE{RULES}
+  update_hours: 6
+  fields: title|price|currency|offer_url|valid_until|source_url|fetched_at
+  render: verified offers only; unpriced offers have no price fields; expired offers are labeled expired
+  boundary: never invent offers, prices, dates, commissions or affiliate links
+::MODULE{PROVIDERS}
+  Holafly | esim.holafly.com | https://esim.holafly.com/data-plans/holafly-esim-discount-code/ |
+  Nomad eSIM | nomadesim.com | https://www.nomadesim.com/shop/limited-time-offer |
+  aloSIM | alosim.com | https://alosim.com/refer-and-earn/ |
+  Saily | saily.com | https://saily.com/coupon/ |
+  Maya Mobile | maya.net | 无 |
+  Roamless | roamless.com | 无 |
+  Yesim | yesim.app | https://yesim.app/promocodes/ |
+  Bounce | bounce.com | https://bounce.com/ls/coupons |
+  Radical Storage | radicalstorage.com | https://radicalstorage.com/travel/radical-storage-promo-code/ |
+  LuggageHero | luggagehero.com | https://luggagehero.com/sitemap/ |
+  Stasher | stasher.com | https://stasher.com/blog/stasher-promo-code-save-on-luggage-storage-while-travelling |
+  Tortuga | tortugabackpacks.com | https://www.tortugabackpacks.com/pages/tortuga-discount-codes | | Product
+  Matador | matadorequipment.com | https://www.matadorequipment.com/collections/sale | | Product
+  Gravel | gravel.co | https://gravel.co/collections/sale | | Product
+  Pakt | paktbags.com | https://paktbags.com/collections/warehouse-sale-2025 | | Product
+  CabinZero | cabinzero.com | https://www.cabinzero.com/ | | Product
+  NOMATIC | nomatic.com | https://www.nomatic.com/collections/sale | | Product
+  SafetyWing | safetywing.com | https://safetywing.com/nomad-insurance |
+  Heymondo | heymondo.com | https://heymondo.com/sitemap/ |
+  The Parking Spot | theparkingspot.com | https://www.theparkingspot.com/coupons |
+  WallyPark | wallypark.com | https://www.wallypark.com/ |
