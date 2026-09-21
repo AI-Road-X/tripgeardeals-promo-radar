@@ -212,6 +212,11 @@ def main():
         offers.extend(rows)
         sources.append(status)
         print(f"{provider['name']}: {status['status']} ({len(rows)} offers)")
+    browser_verified_path = ROOT / "data" / "browser_verified_offers.json"
+    if browser_verified_path.exists():
+        browser_verified = json.loads(browser_verified_path.read_text(encoding="utf-8"))
+        offers.extend(browser_verified.get("offers", []))
+        sources.extend(browser_verified.get("sources", []))
     unique = {(r["provider"], r["offer_url"], r["title"]): r for r in offers}
     output = {"generated_at": fetched_at, "offers": list(unique.values()), "sources": sources}
     path = ROOT / "data" / "offers.json"

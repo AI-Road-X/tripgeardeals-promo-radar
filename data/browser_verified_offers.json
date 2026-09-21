@@ -1,0 +1,44 @@
+{
+  "offers": [
+    {
+      "provider": "Holafly",
+      "title": "5% off short-trip eSIMs with code MYESIMNOW5",
+      "offer_url": "https://esim.holafly.com/data-plans/holafly-esim-discount-code/",
+      "source_url": "https://esim.holafly.com/data-plans/holafly-esim-discount-code/",
+      "fetched_at": "2026-09-21T14:00:07Z"
+    },
+    {
+      "provider": "Holafly",
+      "title": "10% off monthly plans with code MONTHLYPLAN10",
+      "offer_url": "https://esim.holafly.com/data-plans/holafly-esim-discount-code/",
+      "source_url": "https://esim.holafly.com/data-plans/holafly-esim-discount-code/",
+      "fetched_at": "2026-09-21T14:00:07Z"
+    },
+    {
+      "provider": "The Parking Spot",
+      "title": "10% or more off Fall airport parking with code FALL10",
+      "offer_url": "https://www.theparkingspot.com/coupons",
+      "source_url": "https://www.theparkingspot.com/coupons",
+      "valid_until": "2026-11-15",
+      "fetched_at": "2026-09-21T14:00:07Z"
+    }
+  ],
+  "sources": [
+    {
+      "provider": "Holafly",
+      "status": "ok",
+      "offers": 2,
+      "source_url": "https://esim.holafly.com/data-plans/holafly-esim-discount-code/",
+      "fetched_at": "2026-09-21T14:00:07Z",
+      "method": "rendered_browser"
+    },
+    {
+      "provider": "The Parking Spot",
+      "status": "ok",
+      "offers": 1,
+      "source_url": "https://www.theparkingspot.com/coupons",
+      "fetched_at": "2026-09-21T14:00:07Z",
+      "method": "rendered_browser"
+    }
+  ]
+}
