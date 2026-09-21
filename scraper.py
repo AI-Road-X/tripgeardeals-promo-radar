@@ -22,7 +22,7 @@ import xml.etree.ElementTree as ET
 from settings import load_settings
 
 ROOT = Path(__file__).resolve().parent
-USER_AGENT = "TripGearDealsBot/1.0 (+https://branddealradar.com/)"
+USER_AGENT = "TripGearDealsBot/1.0 (+https://tripgeardeals-promo-radar.pages.dev/)"
 KEYWORDS = re.compile(r"\b(sale|discount|coupon|promo(?:tion| code)?|offer|save)\b", re.I)
 
 

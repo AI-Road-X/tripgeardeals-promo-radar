@@ -11,6 +11,7 @@ import html
 import json
 from pathlib import Path
 import re
+import shutil
 from urllib.parse import urlparse
 
 from settings import load_settings
@@ -75,8 +76,8 @@ def chrome(settings, path, title, description, body, schema=""):
 def main():
     settings = load_settings(ROOT / ".ilang" / "site.ilang")
     data = json.loads((ROOT / "data" / "offers.json").read_text(encoding="utf-8"))
-    providers = settings["providers"]
-    known = {p["name"] for p in providers}
+    all_providers = settings["providers"]
+    known = {p["name"] for p in all_providers}
     today = dt.datetime.now(dt.timezone.utc).date()
     base = settings["domain"].rstrip("/")
     offers = []
@@ -85,7 +86,7 @@ def main():
             continue
         source_host = urlparse(row["source_url"]).hostname
         offer_host = urlparse(row["offer_url"]).hostname
-        provider = next(p for p in providers if p["name"] == row["provider"])
+        provider = next(p for p in all_providers if p["name"] == row["provider"])
         if not all(h and (h == provider["domain"] or h.endswith("." + provider["domain"])) for h in (source_host, offer_host)):
             continue
         until = valid_date(row.get("valid_until")) if row.get("valid_until") else None
@@ -93,6 +94,10 @@ def main():
         item["expired"] = bool(until and until < today)
         item["slug"] = slug(row["provider"] + "-" + row["title"])
         offers.append(item)
+    providers = [p for p in all_providers if any(o["provider"] == p["name"] for o in offers)]
+    if OUT.exists():
+        shutil.rmtree(OUT)
+    OUT.mkdir(parents=True)
     urls = ["/"]
     lastmods = {"/": valid_date(data.get("generated_at")) if data.get("generated_at") else None}
     source_dates = {s["provider"]: valid_date(s.get("fetched_at")) for s in data.get("sources", []) if s.get("status") == "ok" and s.get("fetched_at")}

@@ -30,27 +30,22 @@ class SiteTests(unittest.TestCase):
         (root / "data").mkdir()
         (root / ".ilang" / "site.ilang").write_text(
             "::ILANG\n[TYPE:config][PROJECT:test][LANG:zh]\n"
-            "::STATE{@SITE, brand:Test Brand, niche:US travel, domain:https://branddealradar.com, locale:en-US}\n"
+            "::STATE{@SITE, brand:Test Brand, niche:US travel, domain:https://tripgeardeals-promo-radar.pages.dev, locale:en-US}\n"
             "::MODULE{PROVIDERS}\nExample | example.com | https://example.com/sale |\n",
             encoding="utf-8",
         )
         return root
 
-    def test_provider_config_changes_build(self):
+    def test_provider_without_verified_offer_is_removed(self):
         with tempfile.TemporaryDirectory() as folder:
             root = self.make_root(folder)
             (root / "data" / "offers.json").write_text('{"generated_at":null,"offers":[],"sources":[]}', encoding="utf-8")
             with patch.object(build, "ROOT", root), patch.object(build, "OUT", root / "site"):
                 build.main()
                 page = (root / "site" / "index.html").read_text(encoding="utf-8")
-                self.assertIn("Example", page)
-                self.assertIn('rel="canonical" href="https://branddealradar.com/"', page)
-                text = (root / ".ilang" / "site.ilang").read_text(encoding="utf-8").replace("Example |", "Replaced |")
-                (root / ".ilang" / "site.ilang").write_text(text, encoding="utf-8")
-                build.main()
-                changed = (root / "site" / "index.html").read_text(encoding="utf-8")
-                self.assertIn("Replaced", changed)
-                self.assertNotIn("Example", changed)
+                self.assertNotIn("Example", page)
+                self.assertIn('rel="canonical" href="https://tripgeardeals-promo-radar.pages.dev/"', page)
+                self.assertFalse((root / "site" / "providers" / "example").exists())
 
     def test_missing_price_and_expired_offer(self):
         with tempfile.TemporaryDirectory() as folder:

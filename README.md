@@ -1,6 +1,6 @@
 # tripgeardeals
 
-An English-language directory of US travel gear and service offers. The planned primary domain is [branddealradar.com](https://branddealradar.com/). The domain currently points to an older Cloudflare account; the new site must be deployed and verified before the registrar's nameservers change.
+An English-language directory of US travel gear and service offers, currently published at [tripgeardeals-promo-radar.pages.dev](https://tripgeardeals-promo-radar.pages.dev/).
 
 Only public, official sources are queried. Missing prices, deadlines, or discounts are not inferred. A provider may be listed without a verified offer. No affiliate links are configured.
 
