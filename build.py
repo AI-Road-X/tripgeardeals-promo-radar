@@ -148,6 +148,7 @@ def main():
     write("compare/index.html", chrome(settings, compare_path, f"Compare travel brands | {settings['brand']}", "Compare official-source travel offer coverage by provider.", render("compare.html", rows=rows), jsonld(list_schema([base + f"/providers/{slug(p['name'])}/" for p in providers]))))
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(f"<url><loc>{esc(base + path)}</loc>{'<lastmod>' + lastmods[path].isoformat() + '</lastmod>' if lastmods.get(path) else ''}</url>" for path in urls) + "\n</urlset>\n")
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n")
+    write("404.html", render("404.html", site_name=esc(settings["brand"])))
     print(f"Built {len(urls)} pages; {len(offers)} verified-source offers ({len([o for o in offers if not o['expired']])} active)")
 
 

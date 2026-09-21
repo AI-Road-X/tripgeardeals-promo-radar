@@ -46,6 +46,7 @@ class SiteTests(unittest.TestCase):
                 self.assertNotIn("Example", page)
                 self.assertIn('rel="canonical" href="https://tripgeardeals-promo-radar.pages.dev/"', page)
                 self.assertFalse((root / "site" / "providers" / "example").exists())
+                self.assertIn('content="noindex"', (root / "site" / "404.html").read_text(encoding="utf-8"))
 
     def test_missing_price_and_expired_offer(self):
         with tempfile.TemporaryDirectory() as folder:
