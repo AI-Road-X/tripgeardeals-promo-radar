@@ -1,5 +1,5 @@
 # ::ILANG
-# [TYPE:component][PROJECT:tripgeardeals][ROLE:configuration-reader]
+# [TYPE:component][PROJECT:brand-deal-radar][ROLE:configuration-reader]
 # ::RULE{read:.ilang/site.ilang|validate:required site and provider fields}
 # ::BOUNDARY{never:substitute invented providers or sources}
 """Read the deliberately small I-Lang site configuration without a runtime dependency."""

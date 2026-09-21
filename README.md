@@ -1,6 +1,6 @@
-# tripgeardeals
+# Brand Deal Radar
 
-An English-language directory of US travel gear and service offers, currently published at [tripgeardeals-promo-radar.pages.dev](https://tripgeardeals-promo-radar.pages.dev/).
+An English-language directory of US travel gear and service offers published at [branddealradar.com](https://branddealradar.com/).
 
 Only public, official sources are queried. Missing prices, deadlines, or discounts are not inferred. A provider may be listed without a verified offer. No affiliate links are configured.
 

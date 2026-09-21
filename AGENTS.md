@@ -1,5 +1,5 @@
 ::ILANG
-[TYPE:agent-guide][PROJECT:tripgeardeals][LANG:zh]
+[TYPE:agent-guide][PROJECT:brand-deal-radar][LANG:zh]
 ::OBJECTIVE{维护面向美区的旅行装备与服务优惠静态站}
 ::RULE{.ilang/site.ilang 是品牌、域名、厂商和来源的唯一配置入口}
 ::RULE{只从公开官方来源取数据，遵守 robots.txt；不绕登录、反爬或付费墙}

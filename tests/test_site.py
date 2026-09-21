@@ -1,5 +1,5 @@
 # ::ILANG
-# [TYPE:component][PROJECT:tripgeardeals][ROLE:offline-checks]
+# [TYPE:component][PROJECT:brand-deal-radar][ROLE:offline-checks]
 # ::BOUNDARY{never:use test fixtures as published offers}
 """Offline configuration and output checks using temporary data only."""
 
@@ -30,7 +30,7 @@ class SiteTests(unittest.TestCase):
         (root / "data").mkdir()
         (root / ".ilang" / "site.ilang").write_text(
             "::ILANG\n[TYPE:config][PROJECT:test][LANG:zh]\n"
-            "::STATE{@SITE, brand:Test Brand, niche:US travel, domain:https://tripgeardeals-promo-radar.pages.dev, locale:en-US}\n"
+            "::STATE{@SITE, brand:Test Brand, niche:US travel, domain:https://branddealradar.com, locale:en-US}\n"
             "::MODULE{PROVIDERS}\nExample | example.com | https://example.com/sale |\n",
             encoding="utf-8",
         )
@@ -44,7 +44,7 @@ class SiteTests(unittest.TestCase):
                 build.main()
                 page = (root / "site" / "index.html").read_text(encoding="utf-8")
                 self.assertNotIn("Example", page)
-                self.assertIn('rel="canonical" href="https://tripgeardeals-promo-radar.pages.dev/"', page)
+                self.assertIn('rel="canonical" href="https://branddealradar.com/"', page)
                 self.assertFalse((root / "site" / "providers" / "example").exists())
                 self.assertIn('content="noindex"', (root / "site" / "404.html").read_text(encoding="utf-8"))
 

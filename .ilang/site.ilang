@@ -1,6 +1,6 @@
 ::ILANG
-[TYPE:config][PROJECT:tripgeardeals][LANG:zh]
-::STATE{@SITE, brand:tripgeardeals, niche:US travel gear and services, domain:https://tripgeardeals-promo-radar.pages.dev, locale:en-US}
+[TYPE:config][PROJECT:brand-deal-radar][LANG:zh]
+::STATE{@SITE, brand:Brand Deal Radar, niche:US travel gear and services, domain:https://branddealradar.com, locale:en-US}
 ::MODULE{RULES}
   update_hours: 6
   fields: title|price|currency|offer_url|valid_until|source_url|fetched_at

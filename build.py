@@ -1,5 +1,5 @@
 # ::ILANG
-# [TYPE:component][PROJECT:tripgeardeals][ROLE:static-site-builder]
+# [TYPE:component][PROJECT:brand-deal-radar][ROLE:static-site-builder]
 # ::RULE{read:.ilang/site.ilang|read:data/offers.json|write:site/}
 # ::BOUNDARY{never:invent offers, prices, dates or affiliate URLs}
 """Render verified offers and provider directories to a static Pages site."""
@@ -139,7 +139,12 @@ def main():
             schema["priceValidUntil"] = offer["valid_until"]
         crumbs = breadcrumb_schema(base, [("Home", "/"), (provider["name"], f"/providers/{slug(provider['name'])}/"), (offer["title"], path)])
         write(f"deals/{offer['slug']}/index.html", chrome(settings, path, f"{offer['provider']}: {offer['title']} | {settings['brand']}", f"{offer['title']} from {offer['provider']}. Official source checked {offer.get('fetched_at', 'at an unknown time')}.", body, jsonld(schema) + jsonld(crumbs)))
-    index_body = render("index.html", niche=esc(settings["niche"]), provider_list="\n".join(provider_cards), verified_count=len([o for o in offers if not o["expired"]]))
+    avis_path = "/avis-promo-code/"
+    urls.append(avis_path)
+    lastmods[avis_path] = dt.date(2026, 9, 17)
+    write("avis-promo-code/index.html", (TEMPLATES / "avis-promo-code.html").read_text(encoding="utf-8"))
+    provider_cards.insert(0, '<li><a href="/avis-promo-code/">Avis</a> — 8 official-source offers checked Sep 17, 2026</li>')
+    index_body = render("index.html", niche=esc(settings["niche"]), provider_list="\n".join(provider_cards), verified_count=len([o for o in offers if not o["expired"]]) + 8)
     write("index.html", chrome(settings, "/", f"{settings['brand']} | US travel deals", f"Official-source deals for {settings['niche']}.", index_body, jsonld(list_schema([base + path for path in urls[1:]]))))
     compare_path = "/compare/"
     urls.append(compare_path)
