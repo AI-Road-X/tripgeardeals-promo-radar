@@ -121,7 +121,7 @@ def main():
             breadcrumb_schema(base, [("Home", "/"), (provider["name"], path)]),
         ]
         write(f"providers/{slug(provider['name'])}/index.html", chrome(settings, path, f"{provider['name']} travel offers | {settings['brand']}", f"Official-source offers for {provider['name']}; {len(active)} currently verified.", body, "".join(jsonld(x) for x in schemas)))
-        provider_cards.append(f'<li><a href="{esc(path)}">{esc(provider["name"])}</a> — {len(active)} verified offers</li>')
+        provider_cards.append(f'<a class="provider-card" href="{esc(path)}"><span class="provider-card__name">{esc(provider["name"])}</span><span class="provider-card__meta">{len(active)} verified listings with official sources</span><span class="provider-card__cta">View provider details →</span></a>')
     for offer in offers:
         path = f"/deals/{offer['slug']}/"
         urls.append(path)
@@ -143,7 +143,7 @@ def main():
     urls.append(avis_path)
     lastmods[avis_path] = dt.date(2026, 9, 17)
     write("avis-promo-code/index.html", (TEMPLATES / "avis-promo-code.html").read_text(encoding="utf-8"))
-    provider_cards.insert(0, '<li><a href="/avis-promo-code/">Avis</a> — 8 official-source offers checked Sep 17, 2026</li>')
+    provider_cards.insert(0, '<a class="provider-card" href="/avis-promo-code/"><span class="provider-card__name">Avis</span><span class="provider-card__meta">8 official-source offers checked Sep 17, 2026</span><span class="provider-card__cta">View Avis deals →</span></a>')
     index_body = render("index.html", niche=esc(settings["niche"]), provider_list="\n".join(provider_cards), verified_count=len([o for o in offers if not o["expired"]]) + 8)
     write("index.html", chrome(settings, "/", f"{settings['brand']} | US travel deals", f"Official-source deals for {settings['niche']}.", index_body, jsonld(list_schema([base + path for path in urls[1:]]))))
     compare_path = "/compare/"
