@@ -76,6 +76,8 @@ def chrome(settings, path, title, description, body, schema=""):
 def main():
     settings = load_settings(ROOT / ".ilang" / "site.ilang")
     data = json.loads((ROOT / "data" / "offers.json").read_text(encoding="utf-8"))
+    articles_data = json.loads((ROOT / "data" / "articles.json").read_text(encoding="utf-8"))
+    articles = articles_data.get("articles", [])
     all_providers = settings["providers"]
     known = {p["name"] for p in all_providers}
     today = dt.datetime.now(dt.timezone.utc).date()
@@ -139,12 +141,27 @@ def main():
             schema["priceValidUntil"] = offer["valid_until"]
         crumbs = breadcrumb_schema(base, [("Home", "/"), (provider["name"], f"/providers/{slug(provider['name'])}/"), (offer["title"], path)])
         write(f"deals/{offer['slug']}/index.html", chrome(settings, path, f"{offer['provider']}: {offer['title']} | {settings['brand']}", f"{offer['title']} from {offer['provider']}. Official source checked {offer.get('fetched_at', 'at an unknown time')}.", body, jsonld(schema) + jsonld(crumbs)))
+    article_cards = []
+    for article in articles:
+        path = f"/{article['slug']}/"
+        urls.append(path)
+        lastmods[path] = valid_date(article.get("published_at"))
+        steps = "".join(f"<li>{esc(step)}</li>" for step in article["steps"])
+        details = "".join(f"<article><h3>{esc(item['heading'])}</h3><p>{esc(item['body'])}</p></article>" for item in article["details"])
+        body = render("article.html", title=esc(article["title"]), answer=esc(article["answer"]), how_to_heading=esc(article["how_to_heading"]), steps=steps, details=details,
+                      source_name=esc(article["source_name"]), source_url=esc(article["source_url"]), fetched_at=esc(article["fetched_at"]))
+        schema = {"@context": "https://schema.org", "@type": "Article", "headline": article["title"], "mainEntityOfPage": base + path,
+                  "datePublished": article["published_at"], "dateModified": article["published_at"], "author": {"@type": "Organization", "name": settings["brand"]},
+                  "citation": article["source_url"]}
+        crumbs = breadcrumb_schema(base, [("Home", "/"), (article["title"], path)])
+        write(f"{article['slug']}/index.html", chrome(settings, path, f"{article['title']} | {settings['brand']}", article["description"], body, jsonld(schema) + jsonld(crumbs)))
+        article_cards.append(f'<a class="guide-card" href="{esc(path)}"><span class="guide-card__title">{esc(article["title"])}</span><span class="guide-card__meta">Official source checked {esc(article["fetched_at"][:10])}</span><span class="provider-card__cta">Read the guide →</span></a>')
     avis_path = "/avis-promo-code/"
     urls.append(avis_path)
     lastmods[avis_path] = dt.date(2026, 9, 17)
     write("avis-promo-code/index.html", (TEMPLATES / "avis-promo-code.html").read_text(encoding="utf-8"))
     provider_cards.insert(0, '<a class="provider-card" href="/avis-promo-code/"><span class="provider-card__name">Avis</span><span class="provider-card__meta">8 official-source offers checked Sep 17, 2026</span><span class="provider-card__cta">View Avis deals →</span></a>')
-    index_body = render("index.html", niche=esc(settings["niche"]), provider_list="\n".join(provider_cards), verified_count=len([o for o in offers if not o["expired"]]) + 8)
+    index_body = render("index.html", niche=esc(settings["niche"]), provider_list="\n".join(provider_cards), article_cards="\n".join(article_cards), verified_count=len([o for o in offers if not o["expired"]]) + 8)
     write("index.html", chrome(settings, "/", f"{settings['brand']} | US travel deals", f"Official-source deals for {settings['niche']}.", index_body, jsonld(list_schema([base + path for path in urls[1:]]))))
     compare_path = "/compare/"
     urls.append(compare_path)
