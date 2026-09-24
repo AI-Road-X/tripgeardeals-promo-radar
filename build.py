@@ -145,13 +145,16 @@ def main():
     for article in articles:
         path = f"/{article['slug']}/"
         urls.append(path)
-        lastmods[path] = valid_date(article.get("published_at"))
+        lastmods[path] = valid_date(article.get("updated_at") or article.get("published_at"))
         steps = "".join(f"<li>{esc(step)}</li>" for step in article["steps"])
         details = "".join(f"<article><h3>{esc(item['heading'])}</h3><p>{esc(item['body'])}</p></article>" for item in article["details"])
+        support_url = article.get("support_url", article["source_url"])
+        troubleshooting_url = article.get("troubleshooting_url", support_url)
+        modified_at = article.get("updated_at", article["published_at"])
         body = render("article.html", title=esc(article["title"]), answer=esc(article["answer"]), how_to_heading=esc(article["how_to_heading"]), steps=steps, details=details,
-                      source_name=esc(article["source_name"]), source_url=esc(article["source_url"]), fetched_at=esc(article["fetched_at"]))
+                      source_name=esc(article["source_name"]), source_url=esc(article["source_url"]), support_url=esc(support_url), troubleshooting_url=esc(troubleshooting_url), fetched_at=esc(article["fetched_at"]))
         schema = {"@context": "https://schema.org", "@type": "Article", "headline": article["title"], "mainEntityOfPage": base + path,
-                  "datePublished": article["published_at"], "dateModified": article["published_at"], "author": {"@type": "Organization", "name": settings["brand"]},
+                  "datePublished": article["published_at"], "dateModified": modified_at, "author": {"@type": "Organization", "name": settings["brand"]},
                   "citation": article["source_url"]}
         crumbs = breadcrumb_schema(base, [("Home", "/"), (article["title"], path)])
         write(f"{article['slug']}/index.html", chrome(settings, path, f"{article['title']} | {settings['brand']}", article["description"], body, jsonld(schema) + jsonld(crumbs)))

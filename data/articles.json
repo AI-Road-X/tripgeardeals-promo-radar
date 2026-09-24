@@ -5,13 +5,14 @@
       "title": "Holafly Discount Code: Which Official Code Fits Your Plan?",
       "description": "Holafly's official discount page lists a code for short trips and another for monthly plans. See which one fits your order and where to enter it.",
       "published_at": "2026-09-24T00:01:11Z",
+      "updated_at": "2026-09-24T00:48:00Z",
       "target_keyword": "holafly discount code",
       "how_to_heading": "How to apply a Holafly discount code",
       "answer": "Holafly's official discount page lists MYESIMNOW5 for 5% off a short-trip eSIM and MONTHLYPLAN10 for 10% off a monthly plan. Use the code that matches the product you select; Holafly says only one promo code can be applied per purchase.",
       "steps": [
         "Choose either a destination and days for a short trip, or a monthly plan subscription.",
         "At checkout, enter the matching code in Holafly's Discount code field and apply it.",
-        "Complete the purchase after checking that the discount shown matches the code and product you selected."
+        "Before payment, check that the changed total matches the code and product you selected."
       ],
       "details": [
         {
@@ -25,11 +26,21 @@
         {
           "heading": "Can the two codes be combined?",
           "body": "No. Holafly's official FAQ says only one promo code can be applied per purchase. Pick the code that corresponds to the plan you are buying rather than trying to stack both."
+        },
+        {
+          "heading": "Install before travel; activate after arrival",
+          "body": "Holafly's iPhone installation guide says to install the eSIM shortly before a trip and wait until you arrive at the destination to activate it. This setup timing is separate from entering a discount code at checkout."
+        },
+        {
+          "heading": "If a code-looking error appears during eSIM setup",
+          "body": "Holafly's setup support uses the message Code no longer valid for an eSIM-installation issue. Its guidance says the eSIM may already be installed or the connection may have dropped. That message is not, by itself, a statement that a checkout discount code failed."
         }
       ],
       "source_name": "Holafly official discount-code page",
       "source_url": "https://esim.holafly.com/data-plans/holafly-esim-discount-code/",
-      "fetched_at": "2026-09-24T00:01:11Z"
+      "support_url": "https://help.holafly.com/en/articles/14290680-how-to-install-your-esim-on-iphone",
+      "troubleshooting_url": "https://help.holafly.com/en/articles/14117247-error-esim-cannot-be-added-o-code-no-longer-valid",
+      "fetched_at": "2026-09-24T00:48:00Z"
     }
   ]
 }

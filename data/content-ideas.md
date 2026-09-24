@@ -4,11 +4,14 @@ Generated: 2026-09-24. This is an editorial planning list, not a source of
 offers. Any future article must re-open the linked official source before it
 is published.
 
-## 1. Official-source gaps to use next
+## 1. Official-source gaps
+
+The setup/activation angle for `holafly esim discount code` was merged into
+the existing `holafly discount code` page on 2026-09-24. Do not publish it as
+a second page. The scheduled next page target is `the parking spot promo code`.
 
 | Next page target | Distinct answer angle | Official source to recheck |
 | --- | --- | --- |
-| holafly esim discount code | A buyer can apply a discount at checkout, install the eSIM shortly before travel, and activate it only after arriving. Keep the discount-code steps distinct from activation steps. | https://esim.holafly.com/data-plans/holafly-esim-discount-code/ ; https://help.holafly.com/en/articles/14290680-how-to-install-your-esim-on-iphone ; https://help.holafly.com/en/articles/14061681-how-to-activate-your-esim-on-iphone |
 | holafly promo code | Explain the checkout sequence: select the product, use the Discount code field, then confirm the changed total before purchase. Do not restate a code unless it is still on the official page. | https://esim.holafly.com/data-plans/holafly-esim-discount-code/ |
 | holafly coupon code | Answer the product-match question: the official page distinguishes a short-trip eSIM from a monthly subscription. | https://esim.holafly.com/data-plans/holafly-esim-discount-code/ |
 | discount code for holafly | Answer the coverage question: the official FAQ says its short-trip code covers destinations in the Holafly Shop, while the monthly-plan code is for a Plans subscription. | https://esim.holafly.com/data-plans/holafly-esim-discount-code/ |
