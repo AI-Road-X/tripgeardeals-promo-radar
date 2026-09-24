@@ -115,7 +115,12 @@ def main():
             cards = "<p>No currently verified promotions. Check the official site for current prices.</p>"
         official = f"<a href=\"https://{esc(provider['domain'])}/\" rel=\"noopener\">Official site</a>"
         source = f"<a href=\"{esc(provider['source'])}\" rel=\"noopener\">Official source</a>" if provider["source"] else "No public offer source configured"
-        body = render("provider.html", name=esc(provider["name"]), official=official, source=source, deals=cards, count=len(active))
+        related_articles = [article for article in articles if article.get("provider") == provider["name"]]
+        guides = ""
+        if related_articles:
+            guide_links = "".join(f'<li><a href="/{esc(article["slug"])}/">{esc(article["title"])}</a> <span class="note">— official source checked {esc(article["fetched_at"][:10])}</span></li>' for article in related_articles)
+            guides = f'<section class="related-guides"><h2>Official-source guides</h2><ul>{guide_links}</ul></section>'
+        body = render("provider.html", name=esc(provider["name"]), official=official, source=source, deals=cards, guides=guides, count=len(active))
         schemas = [
             {"@context": "https://schema.org", "@type": provider["kind"], "name": provider["name"], "url": "https://" + provider["domain"] + "/",
              "offers": [{"@type": "Offer", "name": o["title"], "url": o["offer_url"], "availability": "https://schema.org/InStock"} for o in active]},
