@@ -110,7 +110,7 @@ def main():
         lastmods[path] = source_dates.get(provider["name"])
         own = [o for o in offers if o["provider"] == provider["name"]]
         active = [o for o in own if not o["expired"]]
-        cards = "".join(render("deal_card.html", title=esc(o["title"]), link=esc(f"/deals/{o['slug']}/"), status="Verified source" if not o["expired"] else "Expired") for o in own)
+        cards = "".join(render("deal_card.html", title=esc(o["title"]), link=esc(f"/deals/{o['slug']}/"), source_url=esc(o["source_url"]), fetched_at=esc(o.get("fetched_at", "unknown")), status="Verified source" if not o["expired"] else "Expired") for o in own)
         if not cards:
             cards = "<p>No currently verified promotions. Check the official site for current prices.</p>"
         official = f"<a href=\"https://{esc(provider['domain'])}/\" rel=\"noopener\">Official site</a>"
@@ -156,11 +156,18 @@ def main():
         support_url = article.get("support_url", article["source_url"])
         troubleshooting_url = article.get("troubleshooting_url", support_url)
         modified_at = article.get("updated_at", article["published_at"])
-        body = render("article.html", title=esc(article["title"]), answer=esc(article["answer"]), how_to_heading=esc(article["how_to_heading"]), steps=steps, details=details,
-                      source_name=esc(article["source_name"]), source_url=esc(article["source_url"]), support_url=esc(support_url), troubleshooting_url=esc(troubleshooting_url), fetched_at=esc(article["fetched_at"]))
+        if article.get("layout") == "promo":
+            def cards(items, label):
+                return "".join(f'<article class="offer-card"><span class="offer-label">{label}</span><h3>{("<code>" + esc(item["code"]) + "</code> · ") if item.get("code") else ""}{esc(item["title"])}</h3><p>{esc(item["body"])}</p><p class="source-line"><a href="{esc(item["source_url"])}" rel="noopener">Official source</a> · Checked {esc(item["fetched_at"])}</p></article>' for item in items)
+            body = render("promo_article.html", title=esc(article["title"]), answer=esc(article["answer"]), updated_at=esc(modified_at), fetched_at=esc(article["fetched_at"]), how_to_heading=esc(article["how_to_heading"]), steps=steps, code_cards=cards(article["codes"], "Code"), deal_cards=cards(article["deals"], "Deal"), details=details)
+        else:
+            body = render("article.html", title=esc(article["title"]), answer=esc(article["answer"]), how_to_heading=esc(article["how_to_heading"]), steps=steps, details=details,
+                          source_name=esc(article["source_name"]), source_url=esc(article["source_url"]), support_url=esc(support_url), troubleshooting_url=esc(troubleshooting_url), fetched_at=esc(article["fetched_at"]))
         schema = {"@context": "https://schema.org", "@type": "Article", "headline": article["title"], "mainEntityOfPage": base + path,
                   "datePublished": article["published_at"], "dateModified": modified_at, "author": {"@type": "Organization", "name": settings["brand"]},
                   "citation": article["source_url"]}
+        if article.get("target_keywords"):
+            schema["keywords"] = ", ".join(article["target_keywords"])
         crumbs = breadcrumb_schema(base, [("Home", "/"), (article["title"], path)])
         write(f"{article['slug']}/index.html", chrome(settings, path, f"{article['title']} | {settings['brand']}", article["description"], body, jsonld(schema) + jsonld(crumbs)))
         article_cards.append(f'<a class="guide-card" href="{esc(path)}"><span class="guide-card__title">{esc(article["title"])}</span><span class="guide-card__meta">Official source checked {esc(article["fetched_at"][:10])}</span><span class="provider-card__cta">Read the guide →</span></a>')
