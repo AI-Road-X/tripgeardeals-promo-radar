@@ -102,6 +102,68 @@
       "source_name": "The Parking Spot official coupons page",
       "source_url": "https://www.theparkingspot.com/coupons",
       "fetched_at": "2026-09-24T08:46:32Z"
+    },
+    {
+      "slug": "airalo-discount-code",
+      "layout": "discount",
+      "title": "Airalo Discount Code: Official Promo Code and Checkout Guide",
+      "description": "Airalo's official current discount code, referral offer, and checkout steps, checked on September 26, 2026.",
+      "published_at": "2026-09-26T08:11:56Z",
+      "updated_at": "2026-09-26T08:11:56Z",
+      "target_keyword": "airalo discount code",
+      "target_keywords": [
+        "airalo discount code",
+        "airalo promo code",
+        "airalo promo codes",
+        "airalo coupon code",
+        "airalo codes"
+      ],
+      "provider": "Airalo",
+      "how_to_heading": "How to use an Airalo discount code",
+      "answer": "Yes. Airalo’s official discounts page currently lists SEPTEMBER15 for 15% off a first eSIM. Log in, choose an eSIM, then enter the code at checkout. Airalo also says a discount code, referral code, and Airmoney cannot be combined in one order.",
+      "facts": [
+        {
+          "offer": "SEPTEMBER15 — 15% off a first eSIM",
+          "condition": "Airalo lists this as a first-eSIM offer. Log in and redeem the code during checkout.",
+          "source_url": "https://www.airalo.com/m/features/airalo-discounts-deals/",
+          "fetched_at": "2026-09-26T08:11:56Z"
+        },
+        {
+          "offer": "Referral Airmoney",
+          "condition": "Airalo says a successful referral gives USD $3 Airmoney to the referrer and USD $3 to the referred person.",
+          "source_url": "https://www.airalo.com/m/features/airalo-discounts-deals/",
+          "fetched_at": "2026-09-26T08:11:56Z"
+        },
+        {
+          "offer": "One discount method per purchase",
+          "condition": "Use either a discount or referral code, or Airmoney. Airalo says they cannot be combined in the same order.",
+          "source_url": "https://www.airalo.com/help/affiliates-partnerships/JWVHG1H2NHJ7/how-can-i-redeem-a-discount-code/J6156QQH6MIJ",
+          "fetched_at": "2026-09-26T08:11:56Z"
+        }
+      ],
+      "steps": [
+        "Log in to your Airalo account on the website or in the app.",
+        "Choose the eSIM you want and select Buy Now.",
+        "At checkout, select Use Airmoney or code. On the website, select Code and enter the discount code before choosing Redeem.",
+        "Use only one discount method for the order. If a code does not apply, check whether Airmoney or a referral code is already selected."
+      ],
+      "faqs": [
+        {
+          "question": "Where do I enter an Airalo promo code?",
+          "answer": "On the Airalo website, go to checkout, choose Use Airmoney or code, select Code, enter the code, and choose Redeem. In the app, use the same checkout area and tap Apply after entering the code."
+        },
+        {
+          "question": "Can I combine an Airalo promo code with a referral code or Airmoney?",
+          "answer": "No. Airalo says only one discount method can be used for each purchase: a discount or referral code, or Airmoney."
+        },
+        {
+          "question": "Who can use Airalo promo codes?",
+          "answer": "Airalo says most discount and promo codes are for new users who have not made an eSIM purchase, while some can apply to all users and purchases. Check the official discounts page for the current offer terms."
+        }
+      ],
+      "source_name": "Airalo official discounts page",
+      "source_url": "https://www.airalo.com/m/features/airalo-discounts-deals/",
+      "fetched_at": "2026-09-26T08:11:56Z"
     }
   ]
 }

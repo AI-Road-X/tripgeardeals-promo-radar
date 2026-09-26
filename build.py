@@ -152,11 +152,19 @@ def main():
         urls.append(path)
         lastmods[path] = valid_date(article.get("updated_at") or article.get("published_at"))
         steps = "".join(f"<li>{esc(step)}</li>" for step in article["steps"])
-        details = "".join(f"<article><h3>{esc(item['heading'])}</h3><p>{esc(item['body'])}</p></article>" for item in article["details"])
+        details = "".join(f"<article><h3>{esc(item['heading'])}</h3><p>{esc(item['body'])}</p></article>" for item in article.get("details", []))
         support_url = article.get("support_url", article["source_url"])
         troubleshooting_url = article.get("troubleshooting_url", support_url)
         modified_at = article.get("updated_at", article["published_at"])
-        if article.get("layout") == "promo":
+        if article.get("layout") == "discount":
+            fact_rows = "".join(
+                f'<tr><td>{esc(item["offer"])}</td><td>{esc(item["condition"])}</td><td><a href="{esc(item["source_url"])}" rel="noopener">Official source</a></td><td>{esc(item["fetched_at"])}</td></tr>'
+                for item in article["facts"]
+            )
+            facts = '<table class="fact-table"><thead><tr><th>Offer</th><th>How to get it</th><th>Official source</th><th>Checked</th></tr></thead><tbody>' + fact_rows + '</tbody></table>'
+            faqs = "".join(f'<article class="faq-card"><h3>{esc(item["question"])}</h3><p>{esc(item["answer"])}</p></article>' for item in article["faqs"])
+            body = render("discount_article.html", title=esc(article["title"]), answer=esc(article["answer"]), updated_at=esc(modified_at), fetched_at=esc(article["fetched_at"]), how_to_heading=esc(article["how_to_heading"]), steps=steps, facts=facts, faqs=faqs)
+        elif article.get("layout") == "promo":
             def cards(items, label):
                 return "".join(f'<article class="offer-card"><span class="offer-label">{label}</span><h3>{("<code>" + esc(item["code"]) + "</code> · ") if item.get("code") else ""}{esc(item["title"])}</h3><p>{esc(item["body"])}</p><p class="source-line"><a href="{esc(item["source_url"])}" rel="noopener">Official source</a> · Checked {esc(item["fetched_at"])}</p></article>' for item in items)
             body = render("promo_article.html", title=esc(article["title"]), answer=esc(article["answer"]), updated_at=esc(modified_at), fetched_at=esc(article["fetched_at"]), how_to_heading=esc(article["how_to_heading"]), steps=steps, code_cards=cards(article["codes"], "Code"), deal_cards=cards(article["deals"], "Deal"), details=details)
@@ -168,8 +176,11 @@ def main():
                   "citation": article["source_url"]}
         if article.get("target_keywords"):
             schema["keywords"] = ", ".join(article["target_keywords"])
+        if article.get("faqs"):
+            schema = [schema, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": item["question"], "acceptedAnswer": {"@type": "Answer", "text": item["answer"]}} for item in article["faqs"]]}]
         crumbs = breadcrumb_schema(base, [("Home", "/"), (article["title"], path)])
-        write(f"{article['slug']}/index.html", chrome(settings, path, f"{article['title']} | {settings['brand']}", article["description"], body, jsonld(schema) + jsonld(crumbs)))
+        article_schemas = schema if isinstance(schema, list) else [schema]
+        write(f"{article['slug']}/index.html", chrome(settings, path, f"{article['title']} | {settings['brand']}", article["description"], body, "".join(jsonld(item) for item in article_schemas) + jsonld(crumbs)))
         article_cards.append(f'<a class="guide-card" href="{esc(path)}"><span class="guide-card__title">{esc(article["title"])}</span><span class="guide-card__meta">Official source checked {esc(article["fetched_at"][:10])}</span><span class="provider-card__cta">Read the guide →</span></a>')
     avis_path = "/avis-promo-code/"
     urls.append(avis_path)
