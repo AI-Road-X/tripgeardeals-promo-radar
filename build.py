@@ -163,7 +163,7 @@ def main():
             )
             facts = '<table class="fact-table"><thead><tr><th>Offer</th><th>How to get it</th><th>Official source</th><th>Checked</th></tr></thead><tbody>' + fact_rows + '</tbody></table>'
             faqs = "".join(f'<article class="faq-card"><h3>{esc(item["question"])}</h3><p>{esc(item["answer"])}</p></article>' for item in article["faqs"])
-            body = render("discount_article.html", title=esc(article["title"]), answer=esc(article["answer"]), updated_at=esc(modified_at), fetched_at=esc(article["fetched_at"]), how_to_heading=esc(article["how_to_heading"]), steps=steps, facts=facts, faqs=faqs)
+            body = render("discount_article.html", title=esc(article["title"]), answer=esc(article["answer"]), updated_at=esc(modified_at), fetched_at=esc(article["fetched_at"]), how_to_heading=esc(article["how_to_heading"]), steps=steps, facts=facts, faqs=faqs, faq_heading=esc(article["faq_heading"]), brand_name=esc(article["brand_name"]))
         elif article.get("layout") == "promo":
             def cards(items, label):
                 return "".join(f'<article class="offer-card"><span class="offer-label">{label}</span><h3>{("<code>" + esc(item["code"]) + "</code> · ") if item.get("code") else ""}{esc(item["title"])}</h3><p>{esc(item["body"])}</p><p class="source-line"><a href="{esc(item["source_url"])}" rel="noopener">Official source</a> · Checked {esc(item["fetched_at"])}</p></article>' for item in items)
