@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-26T08:49:17+00:00",
+  "generated_at": "2026-09-26T11:24:19+00:00",
   "offers": [
     {
       "provider": "Bounce",
       "title": "5% off your first booking with code FIRSTBOOKING",
       "offer_url": "https://bounce.com/ls/coupons",
       "source_url": "https://bounce.com/ls/coupons",
-      "fetched_at": "2026-09-26T08:49:17+00:00"
+      "fetched_at": "2026-09-26T11:24:19+00:00"
     },
     {
       "provider": "Radical Storage",
       "title": "10% off your next luggage storage booking with code blog10",
       "offer_url": "https://radicalstorage.com/travel/radical-storage-promo-code/",
       "source_url": "https://radicalstorage.com/travel/radical-storage-promo-code/",
-      "fetched_at": "2026-09-26T08:49:17+00:00"
+      "fetched_at": "2026-09-26T11:24:19+00:00"
     },
     {
       "provider": "Holafly",
@@ -41,22 +41,24 @@
   "sources": [
     {
       "provider": "Holafly",
-      "status": "robots_blocked_or_unavailable",
-      "detail": "robots.txt unavailable: URLError"
+      "status": "ok",
+      "offers": 0,
+      "source_url": "https://esim.holafly.com/data-plans/holafly-esim-discount-code/",
+      "fetched_at": "2026-09-26T11:24:19+00:00"
     },
     {
       "provider": "Nomad eSIM",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.nomadesim.com/shop/limited-time-offer",
-      "fetched_at": "2026-09-26T08:49:20+00:00"
+      "fetched_at": "2026-09-26T11:24:20+00:00"
     },
     {
       "provider": "aloSIM",
       "status": "ok",
       "offers": 0,
       "source_url": "https://alosim.com/refer-and-earn/",
-      "fetched_at": "2026-09-26T08:49:21+00:00"
+      "fetched_at": "2026-09-26T11:24:21+00:00"
     },
     {
       "provider": "Saily",
@@ -81,94 +83,96 @@
       "status": "ok",
       "offers": 1,
       "source_url": "https://bounce.com/ls/coupons",
-      "fetched_at": "2026-09-26T08:49:21+00:00"
+      "fetched_at": "2026-09-26T11:24:22+00:00"
     },
     {
       "provider": "Radical Storage",
       "status": "ok",
       "offers": 1,
       "source_url": "https://radicalstorage.com/travel/radical-storage-promo-code/",
-      "fetched_at": "2026-09-26T08:49:21+00:00"
+      "fetched_at": "2026-09-26T11:24:22+00:00"
     },
     {
       "provider": "LuggageHero",
       "status": "ok",
       "offers": 0,
       "source_url": "https://luggagehero.com/sitemap/",
-      "fetched_at": "2026-09-26T08:49:26+00:00"
+      "fetched_at": "2026-09-26T11:24:27+00:00"
     },
     {
       "provider": "Stasher",
       "status": "ok",
       "offers": 0,
       "source_url": "https://stasher.com/blog/stasher-promo-code-save-on-luggage-storage-while-travelling",
-      "fetched_at": "2026-09-26T08:49:27+00:00"
+      "fetched_at": "2026-09-26T11:24:27+00:00"
     },
     {
       "provider": "Tortuga",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.tortugabackpacks.com/pages/tortuga-discount-codes",
-      "fetched_at": "2026-09-26T08:49:28+00:00"
+      "fetched_at": "2026-09-26T11:24:28+00:00"
     },
     {
       "provider": "Matador",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.matadorequipment.com/collections/sale",
-      "fetched_at": "2026-09-26T08:49:30+00:00"
+      "fetched_at": "2026-09-26T11:24:29+00:00"
     },
     {
       "provider": "Gravel",
       "status": "ok",
       "offers": 0,
       "source_url": "https://gravel.co/collections/sale",
-      "fetched_at": "2026-09-26T08:49:31+00:00"
+      "fetched_at": "2026-09-26T11:24:30+00:00"
     },
     {
       "provider": "Pakt",
       "status": "ok",
       "offers": 0,
       "source_url": "https://paktbags.com/collections/warehouse-sale-2025",
-      "fetched_at": "2026-09-26T08:49:32+00:00"
+      "fetched_at": "2026-09-26T11:24:30+00:00"
     },
     {
       "provider": "CabinZero",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.cabinzero.com/",
-      "fetched_at": "2026-09-26T08:49:33+00:00"
+      "fetched_at": "2026-09-26T11:24:32+00:00"
     },
     {
       "provider": "NOMATIC",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.nomatic.com/collections/sale",
-      "fetched_at": "2026-09-26T08:49:35+00:00"
+      "fetched_at": "2026-09-26T11:24:33+00:00"
     },
     {
       "provider": "SafetyWing",
       "status": "ok",
       "offers": 0,
       "source_url": "https://safetywing.com/nomad-insurance",
-      "fetched_at": "2026-09-26T08:49:37+00:00"
+      "fetched_at": "2026-09-26T11:24:35+00:00"
     },
     {
       "provider": "Heymondo",
       "status": "ok",
       "offers": 0,
       "source_url": "https://heymondo.com/sitemap/",
-      "fetched_at": "2026-09-26T08:49:39+00:00"
+      "fetched_at": "2026-09-26T11:24:36+00:00"
     },
     {
       "provider": "The Parking Spot",
       "status": "robots_blocked_or_unavailable",
-      "detail": "robots.txt unavailable: URLError"
+      "detail": "robots.txt unavailable: HTTPError"
     },
     {
       "provider": "WallyPark",
-      "status": "robots_blocked_or_unavailable",
-      "detail": "robots.txt unavailable: HTTPError"
+      "status": "ok",
+      "offers": 0,
+      "source_url": "https://www.wallypark.com/",
+      "fetched_at": "2026-09-26T11:24:37+00:00"
     },
     {
       "provider": "Holafly",
