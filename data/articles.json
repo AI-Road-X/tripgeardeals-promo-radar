@@ -164,6 +164,68 @@
       "source_name": "Airalo official discounts page",
       "source_url": "https://www.airalo.com/m/features/airalo-discounts-deals/",
       "fetched_at": "2026-09-26T08:11:56Z"
+    },
+    {
+      "slug": "nomad-promo-code",
+      "layout": "discount",
+      "title": "Nomad eSIM Promo Code: Official Referral and Checkout Guide",
+      "description": "Official Nomad eSIM referral and promo-code guidance, eligibility rules, and checkout steps checked on September 26, 2026.",
+      "published_at": "2026-09-26T08:18:05Z",
+      "updated_at": "2026-09-26T08:18:05Z",
+      "target_keyword": "nomad promo code",
+      "target_keywords": [
+        "nomad promo code",
+        "nomad coupon code",
+        "nomad coupon",
+        "nomad discount code",
+        "nomad esim promo code"
+      ],
+      "provider": "Nomad eSIM",
+      "how_to_heading": "How to use a Nomad eSIM referral or promo code",
+      "answer": "The Nomad eSIM official pages checked for this guide do not publish a universal promo code. Instead, a new customer can use a friend’s valid referral code at checkout for a first-purchase discount. Enter it in the Add Promo Code field, or save it first under My Account > Promos.",
+      "facts": [
+        {
+          "offer": "Friend referral discount",
+          "condition": "Nomad says a new user with no previous purchase history can use one valid friend referral code for a first-purchase discount.",
+          "source_url": "https://www.nomadesim.com/help-center/en/articles/9886364-how-to-redeem-a-referral-code",
+          "fetched_at": "2026-09-26T08:18:05Z"
+        },
+        {
+          "offer": "Referral-code eligibility",
+          "condition": "Referral codes cannot be used after a previous purchase or trial eSIM, and cannot be used on unlimited plans, plans already on sale, or plans priced below USD $5.",
+          "source_url": "https://www.nomadesim.com/help-center/en/articles/12679574-why-can-t-i-use-a-referral-code-after-a-trial",
+          "fetched_at": "2026-09-26T08:18:05Z"
+        },
+        {
+          "offer": "Seasonal and account-specific promos",
+          "condition": "Nomad directs users to Profile > Promo for available offers and terms. Official promo codes can have plan and prior-use restrictions.",
+          "source_url": "https://www.nomadesim.com/help-center/en/articles/9886369-where-to-check-for-promo-offers",
+          "fetched_at": "2026-09-26T08:18:05Z"
+        }
+      ],
+      "steps": [
+        "Log in to the Nomad eSIM website or app and choose an eligible eSIM plan.",
+        "At checkout, enter a valid friend referral code in the Add Promo Code field.",
+        "Alternatively, open My Account > Promos and save the referral code to your profile before checkout.",
+        "If the code does not apply, check that the account has no previous purchase or trial eSIM and that the selected plan is not unlimited, already on sale, or priced below USD $5."
+      ],
+      "faqs": [
+        {
+          "question": "Does Nomad eSIM publish a universal promo code?",
+          "answer": "The official Nomad eSIM pages checked for this guide describe referral codes, account-specific promotions, and seasonal offers, but do not publish a universal code for all visitors."
+        },
+        {
+          "question": "Where do I enter a Nomad eSIM referral code?",
+          "answer": "At checkout, enter the code in the Add Promo Code field. Nomad also says you can save it first under My Account > Promos."
+        },
+        {
+          "question": "Why is my Nomad eSIM promo or referral code not working?",
+          "answer": "Check that the account is eligible and that the selected plan is eligible. Nomad says codes cannot be used after a prior purchase or trial eSIM, or on unlimited plans, plans already on sale, or plans priced below USD $5."
+        }
+      ],
+      "source_name": "Nomad eSIM official help center",
+      "source_url": "https://www.nomadesim.com/help-center/en/articles/9886364-how-to-redeem-a-referral-code",
+      "fetched_at": "2026-09-26T08:18:05Z"
     }
   ]
 }
