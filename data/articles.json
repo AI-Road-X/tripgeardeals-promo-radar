@@ -230,6 +230,67 @@
       "source_name": "Nomad eSIM official help center",
       "source_url": "https://www.nomadesim.com/help-center/en/articles/9886364-how-to-redeem-a-referral-code",
       "fetched_at": "2026-09-26T08:18:05Z"
+    },
+    {
+      "slug": "wallypark-promo-code",
+      "layout": "discount",
+      "title": "WallyPark Promo Code: Official Airport Parking Discounts",
+      "description": "Current WallyPark promo codes, eligibility rules, and reservation steps from official WallyPark pages, checked on September 26, 2026.",
+      "published_at": "2026-09-26T08:31:05Z",
+      "updated_at": "2026-09-26T08:31:05Z",
+      "target_keyword": "wallypark promo code",
+      "target_keywords": [
+        "wallypark promo code",
+        "wallypark airport parking coupon"
+      ],
+      "provider": "WallyPark",
+      "brand_name": "WallyPark",
+      "faq_heading": "WallyPark promo code FAQs",
+      "how_to_heading": "How to use a WallyPark promo code",
+      "answer": "Yes. WallyPark’s official site currently lists CRISP26 for up to 40% off eligible airport-parking reservations. Enter it while making an online reservation; the official terms say it is for stays of two days or longer with check-in on or before November 19, 2026, and it cannot be combined with other discounts.",
+      "facts": [
+        {
+          "offer": "CRISP26 — up to 40% off eligible reservations",
+          "condition": "Use on an online reservation for a stay of two days or longer with check-in on or before November 19, 2026. WallyPark says it cannot be combined with other discounts, prior reservations, or drive-up stays.",
+          "source_url": "https://www.wallypark.com/",
+          "fetched_at": "2026-09-26T08:31:05Z"
+        },
+        {
+          "offer": "AAA15 — AAA member parking discount",
+          "condition": "Enter the code during reservation and show an AAA card at checkout. WallyPark says it cannot be used for drive-up stays or with other promotional or corporate discounts.",
+          "source_url": "https://www.wallypark.com/faq/",
+          "fetched_at": "2026-09-26T08:31:05Z"
+        },
+        {
+          "offer": "SENIOR15, MIL25, and GOV25 — eligibility-based discounts",
+          "condition": "Use the matching code during reservation and show the required identification at checkout. WallyPark lists age, military, or government-employee eligibility and location exclusions in its FAQ.",
+          "source_url": "https://www.wallypark.com/faq/",
+          "fetched_at": "2026-09-26T08:31:05Z"
+        }
+      ],
+      "steps": [
+        "Choose your airport, parking type, and reservation dates on WallyPark.com or in the WallyPark app.",
+        "Before continuing, select Apply Promo and enter an eligible code.",
+        "Review the updated promo rate and the offer terms before confirming the reservation.",
+        "Bring any required membership or eligibility identification to checkout when using AAA, senior, military, or government discounts."
+      ],
+      "faqs": [
+        {
+          "question": "Where do I enter a WallyPark promo code?",
+          "answer": "After selecting a parking type, choose Apply Promo instead of continuing, then enter the code. WallyPark says eligible current email offers may also appear for customers who opted in to marketing emails."
+        },
+        {
+          "question": "Can I combine WallyPark promo codes?",
+          "answer": "No. WallyPark’s terms say promotional codes cannot be combined with other offers or discounts. Its FAQ also says only one promotional code can be redeemed online when making a reservation."
+        },
+        {
+          "question": "Why is my WallyPark promo code not working?",
+          "answer": "Check the code’s reservation dates, stay length, location restrictions, and eligibility. WallyPark says promo codes cannot be used for drive-up stays, and eligibility-based discounts require supporting identification at checkout."
+        }
+      ],
+      "source_name": "WallyPark official site",
+      "source_url": "https://www.wallypark.com/",
+      "fetched_at": "2026-09-26T08:31:05Z"
     }
   ]
 }
