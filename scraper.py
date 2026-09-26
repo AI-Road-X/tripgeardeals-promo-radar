@@ -63,7 +63,10 @@ class PageParser(HTMLParser):
 def explicit_code_offers(parser, provider, source_url, fetched_at):
     """Only extract an explicit code + discount sentence on an official page."""
     visible = " ".join(parser.texts)
-    pattern = re.compile(r"Use promo code\s+([A-Z0-9]{4,24})\s+to get\s+(\d{1,2})% off\s+([^.!?]{1,100})[.!?]", re.I)
+    pattern = re.compile(
+        r"Use(?:\s+promo)?\s+code\s+([A-Z0-9]{4,24})(?:\s+at\s+checkout)?\s+to\s+(?:get|save)\s+(\d{1,2})%\s+(?:off|on)\s+([^.!?]{1,100})[.!?]",
+        re.I,
+    )
     records = []
     for match in pattern.finditer(visible):
         code, percent, conditions = match.groups()

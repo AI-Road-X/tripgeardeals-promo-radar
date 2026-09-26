@@ -24,6 +24,13 @@ class SiteTests(unittest.TestCase):
         self.assertNotIn("price", rows[0])
         self.assertNotIn("valid_until", rows[0])
 
+    def test_explicit_code_accepts_checkout_save_wording(self):
+        parser = scraper.PageParser()
+        parser.feed("<p>Use code blog10 at checkout to save 10% on your next luggage storage booking!</p>")
+        provider = {"name": "Radical Storage", "domain": "radicalstorage.com"}
+        rows = scraper.explicit_code_offers(parser, provider, "https://radicalstorage.com/travel/radical-storage-promo-code/", "2026-09-26T00:00:00+00:00")
+        self.assertEqual(rows[0]["title"], "10% off your next luggage storage booking with code blog10")
+
     def make_root(self, folder):
         root = Path(folder)
         (root / ".ilang").mkdir()
@@ -34,6 +41,7 @@ class SiteTests(unittest.TestCase):
             "::MODULE{PROVIDERS}\nExample | example.com | https://example.com/sale |\n",
             encoding="utf-8",
         )
+        (root / "data" / "articles.json").write_text('{"articles": []}', encoding="utf-8")
         return root
 
     def test_provider_without_verified_offer_is_removed(self):
