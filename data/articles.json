@@ -714,6 +714,74 @@
       "source_name": "Monos official Sale page",
       "source_url": "https://monos.com/collections/sale",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "parkwhiz-promo-code",
+      "layout": "discount",
+      "title": "ParkWhiz Promo Code: Official Discounts and Checkout Guide",
+      "description": "Official ParkWhiz discount-code rules, referral credit, and checkout steps checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "parkwhiz promo code",
+      "target_keywords": [
+        "parkwhiz promo code",
+        "parkwhiz discount code",
+        "parkwhiz coupon",
+        "parkwhiz coupon code",
+        "park whiz discount",
+        "parking whiz promo code",
+        "parking whiz discount code",
+        "parking whiz coupon code",
+        "promo code for parking whiz"
+      ],
+      "provider": "ParkWhiz",
+      "brand_name": "ParkWhiz",
+      "faq_heading": "ParkWhiz promo code FAQs",
+      "how_to_heading": "How to use an official ParkWhiz discount code",
+      "answer": "The ParkWhiz official pages checked for this guide do not publish a universal promo-code value. ParkWhiz says all discount codes are issued directly by ParkWhiz: log in with the same email address that received the code, enter it at checkout, and follow any “Book by” and “Park by” requirements. Unless otherwise specified, codes cannot be used for monthly parking or season parking packages. ParkWhiz also lists a referral offer that gives a friend $5 credit toward a first booking and gives the referrer $10 credit after every two successful referrals.",
+      "facts": [
+        {
+          "offer": "Directly issued ParkWhiz discount code — no universal public code listed",
+          "condition": "Log in with the same email address that received the coupon, then apply it at checkout. ParkWhiz says “Book by” and “Park by” requirements often apply, third-party codes may not work, and codes cannot be applied to monthly parking or season parking packages unless otherwise specified.",
+          "source_url": "https://help.parkwhiz.com/support/solutions/articles/60001010526-how-do-i-apply-a-discount-code-",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Refer Friends, Earn $10",
+          "condition": "ParkWhiz says friends receive $5 ParkWhiz credit toward their first booking. For every two friends who try ParkWhiz, the referrer earns $10 ParkWhiz credit. Use the official referral flow to get a personalized referral code.",
+          "source_url": "https://try.parkwhiz.com/perks/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Reserve, prepay, and save up to 50% off standard rates",
+          "condition": "ParkWhiz's official How It Works page says users can compare parking prices, reserve and prepay, and save up to 50% off standard rates. This is booking-price guidance, not a public promo code.",
+          "source_url": "https://www.parkwhiz.com/how-it-works/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Log in to ParkWhiz with the same email address that received the official discount code.",
+        "Search for parking for the needed date and time, select a location, and continue to checkout.",
+        "On the website, select “Apply Discount.” In the mobile app, enter the code before confirming the purchase and select “Apply.”",
+        "Confirm any “Book by” and “Park by” dates and make sure the booking is not monthly or a season parking package unless the offer specifically permits it."
+      ],
+      "faqs": [
+        {
+          "question": "Does ParkWhiz publish a universal promo code?",
+          "answer": "The official ParkWhiz pages checked for this guide do not publish a universal code value. ParkWhiz says its discount codes are issued directly by ParkWhiz and warns that a code from a third-party website may not work."
+        },
+        {
+          "question": "Where do I enter a ParkWhiz promo code?",
+          "answer": "On the website, search for parking, continue to checkout, and select “Apply Discount.” In the app, enter the code before confirming the purchase and select “Apply.”"
+        },
+        {
+          "question": "Why is my ParkWhiz discount code not working?",
+          "answer": "Check that you are logged in with the same email address that received the code, that any “Book by” and “Park by” requirements are met, and that the booking is not for monthly parking or a season parking package unless the offer says otherwise."
+        }
+      ],
+      "source_name": "ParkWhiz official help center",
+      "source_url": "https://help.parkwhiz.com/support/solutions/articles/60001010526-how-do-i-apply-a-discount-code-",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
