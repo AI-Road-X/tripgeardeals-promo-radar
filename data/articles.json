@@ -512,6 +512,73 @@
       "source_name": "SpotHero official promo-code page",
       "source_url": "https://spothero.com/about/promo-code",
       "fetched_at": "2026-09-27T00:00:00Z"
+    },
+    {
+      "slug": "beis-discount-code",
+      "layout": "discount",
+      "title": "BÉIS Discount Code: Official Sets and Free-Shipping Guide",
+      "description": "Official BÉIS promotion, travel-set, and free-shipping information checked on September 27, 2026.",
+      "published_at": "2026-09-27T00:00:00Z",
+      "updated_at": "2026-09-27T00:00:00Z",
+      "target_keyword": "beis discount code",
+      "target_keywords": [
+        "beis discount code",
+        "beis coupon code",
+        "beis promo code",
+        "beis coupon",
+        "beis discount",
+        "beis free shipping code",
+        "beis free shipping",
+        "beis travel discount code"
+      ],
+      "provider": "BÉIS",
+      "brand_name": "BÉIS",
+      "faq_heading": "BÉIS discount code FAQs",
+      "how_to_heading": "How to get current official BÉIS savings",
+      "answer": "The BÉIS official promotions page checked for this guide does not publicly list a current coupon or promo code value. It does list “Bundle & Save” with “Sets up to 20% off” and “FREE SHIPPING ON ORDERS $140+.” The free-shipping offer applies to approved online orders of $140 or more after discounts, shipped within the U.S. by Standard Ground service.",
+      "facts": [
+        {
+          "offer": "Bundle & Save — Sets up to 20% off",
+          "condition": "BÉIS lists “Sets up to 20% off.” The promotions terms say the travel-sets offer applies only during the promotional period and to travel sets; it cannot be combined with other discounts, offers, or promotions. Gift cards, taxes, shipping fees, and previous purchases are excluded.",
+          "source_url": "https://beistravel.com/pages/promotions",
+          "fetched_at": "2026-09-27T00:00:00Z"
+        },
+        {
+          "offer": "FREE SHIPPING ON ORDERS $140+",
+          "condition": "BÉIS says this applies for a limited time to approved online orders totaling $140 or more after discounts. Orders must ship within the U.S. via Standard Ground service; taxes and shipping and handling are excluded. Terms can change and the offer can end without notice.",
+          "source_url": "https://beistravel.com/pages/promotions",
+          "fetched_at": "2026-09-27T00:00:00Z"
+        },
+        {
+          "offer": "Welcome or mobile-app offer — code not publicly displayed",
+          "condition": "BÉIS lists eligibility and checkout restrictions for first-time customers, including one use and no combining with other offers, but its public promotions page does not display a code value. This guide therefore does not list a code.",
+          "source_url": "https://beistravel.com/pages/promotions",
+          "fetched_at": "2026-09-27T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open BÉIS’s official promotions page and choose the currently listed offer that fits the order.",
+        "For a set, confirm that the selected items are covered by the current “Bundle & Save” offer before checkout.",
+        "For free shipping, confirm that the eligible merchandise total is at least $140 after discounts and that the shipment is within the U.S. by Standard Ground service.",
+        "At checkout, review the displayed total and any offer restrictions. Do not assume a third-party code will work when BÉIS has not published it on its official page."
+      ],
+      "faqs": [
+        {
+          "question": "Does BÉIS publish a current discount or promo code?",
+          "answer": "The BÉIS official promotions page checked for this guide does not publicly display a current code value. It describes promotion terms, but this guide does not list a code that is not shown on that official page."
+        },
+        {
+          "question": "How do I get BÉIS free shipping?",
+          "answer": "BÉIS says “FREE SHIPPING ON ORDERS $140+” applies to approved online orders of $140 or more after discounts, shipped within the U.S. via Standard Ground service. Taxes and shipping and handling are excluded."
+        },
+        {
+          "question": "Can a BÉIS travel-set offer be combined with another promotion?",
+          "answer": "No. The BÉIS promotions terms say the travel-sets offer cannot be combined with any other discounts, offers, or promotions."
+        }
+      ],
+      "source_name": "BÉIS official promotions page",
+      "source_url": "https://beistravel.com/pages/promotions",
+      "fetched_at": "2026-09-27T00:00:00Z"
     }
   ]
 }
