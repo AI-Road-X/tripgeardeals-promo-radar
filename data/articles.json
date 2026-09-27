@@ -646,6 +646,74 @@
       "source_name": "Travelpro official U.S. site",
       "source_url": "https://travelpro.com/",
       "fetched_at": "2026-09-27T00:00:00Z"
+    },
+    {
+      "slug": "monos-discount-code",
+      "layout": "discount",
+      "title": "Monos Discount Code: Official Sale and Free-Shipping Guide",
+      "description": "Official Monos sale, gift, and free-shipping information checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "monos discount code",
+      "target_keywords": [
+        "monos discount code",
+        "monos promo code",
+        "monos coupon code",
+        "monos luggage discount code",
+        "monos coupon",
+        "monos discount",
+        "monos luggage coupon code",
+        "monos luggage promo code",
+        "monos luggage coupon"
+      ],
+      "provider": "Monos",
+      "brand_name": "Monos",
+      "faq_heading": "Monos discount code FAQs",
+      "how_to_heading": "How to get current official Monos savings",
+      "answer": "The Monos official U.S. pages checked for this guide do not publicly list a current discount or promo code. They do list “15% off best sellers. Spend $150+, choose a free gift at checkout,” a Sale with “Save 15% on select suitcases, bags, and travel favourites,” and free standard shipping on orders over $100 within the contiguous U.S. and Canada. Confirm the selected item and checkout total because availability can change.",
+      "facts": [
+        {
+          "offer": "“15% off best sellers” and Sale savings",
+          "condition": "Shop a currently listed item on Monos's official Sale page. The sale applies to select items, and the page shows that some products can be out of stock or offered as pre-orders. Confirm the displayed product price and availability before checkout.",
+          "source_url": "https://monos.com/collections/sale",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Free shipping on orders $100+",
+          "condition": "Monos says it offers free standard shipping on all orders over $100 within the contiguous United States and Canada. Shipping to island territories or Northern Canada, and expedited or express shipping, is calculated at checkout.",
+          "source_url": "https://monos.com/pages/faq",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Free gift with orders over $150",
+          "condition": "Monos's official Sale page says “Free gift with orders over $150 – choose yours at checkout.” Confirm the order total and the currently available gift choice during checkout.",
+          "source_url": "https://monos.com/collections/sale",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open Monos's official U.S. Sale page and choose an available discounted item if it fits the purchase.",
+        "Add the item to cart and confirm the price and stock status shown for the selected variant.",
+        "For free shipping, confirm that the order exceeds $100 and ships within the contiguous United States or Canada using standard shipping.",
+        "At checkout, check whether the order exceeds $150 and select an available free gift if the official checkout presents one. Do not enter a third-party code when Monos has not published it on its official pages."
+      ],
+      "faqs": [
+        {
+          "question": "Does Monos publish a current discount or promo code?",
+          "answer": "The official Monos U.S. pages checked for this guide do not publicly list a current discount or promo code. This guide therefore does not list a code from third-party coupon sites."
+        },
+        {
+          "question": "How do I get Monos free shipping?",
+          "answer": "Monos says it offers free standard shipping on all orders over $100 within the contiguous United States and Canada. Other locations and expedited or express shipping are calculated at checkout."
+        },
+        {
+          "question": "What is the current Monos sale?",
+          "answer": "Monos's official Sale page says “Save 15% on select suitcases, bags, and travel favorites.” Check the official sale listing for the selected product's current price, availability, and any pre-order status."
+        }
+      ],
+      "source_name": "Monos official Sale page",
+      "source_url": "https://monos.com/collections/sale",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
