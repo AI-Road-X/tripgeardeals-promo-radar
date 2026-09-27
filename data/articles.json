@@ -782,6 +782,80 @@
       "source_name": "ParkWhiz official help center",
       "source_url": "https://help.parkwhiz.com/support/solutions/articles/60001010526-how-do-i-apply-a-discount-code-",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "calpak-discount-code",
+      "layout": "discount",
+      "title": "CALPAK Discount Code: Official Sale and Shipping Guide",
+      "description": "Official CALPAK email-signup savings, sale markdowns, shipping threshold, and promotion restrictions checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "calpak discount code",
+      "target_keywords": [
+        "calpak discount code",
+        "calpak promo code",
+        "calpak coupon code",
+        "calpak coupon",
+        "calpak discount",
+        "calpak promo",
+        "calpak free shipping code",
+        "calpak travel discount code",
+        "calpak travel coupon"
+      ],
+      "provider": "CALPAK",
+      "brand_name": "CALPAK",
+      "faq_heading": "CALPAK discount code FAQs",
+      "how_to_heading": "How to get current official CALPAK savings",
+      "answer": "The CALPAK official U.S. pages checked for this guide do not publicly display a reusable coupon or promo-code value. CALPAK currently offers “Discover the joy of packing with 10% off” through its email signup, lists marked-down luggage, bags, and organizers on its Sale page, and advertises “Free standard shipping on orders of $75 or more!” Promotions cannot be combined, sale items are not eligible for additional discounts, and shipping promotions apply only in the 48 contiguous United States—not Alaska, Hawaii, or international destinations.",
+      "facts": [
+        {
+          "offer": "Email signup — “Discover the joy of packing with 10% off”",
+          "condition": "Enter an email address through CALPAK's official mailing-list form to receive the signup offer and news. The public page does not display a reusable code value, so this guide does not publish one.",
+          "source_url": "https://www.calpaktravel.com/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Sale markdowns on luggage, bags, and organizers",
+          "condition": "CALPAK's official Sale page lists marked-down products across these categories. Check the selected product's displayed markdown and final-sale status before ordering because the lineup and prices can change.",
+          "source_url": "https://www.calpaktravel.com/collections/sale",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "“Free standard shipping on orders of $75 or more!”",
+          "condition": "CALPAK displays this threshold on its official U.S. site. Confirm that the eligible cart total reaches $75 before payment.",
+          "source_url": "https://www.calpaktravel.com/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Official promotion restrictions",
+          "condition": "CALPAK says offers cannot be combined, sale items are not eligible for additional discounts, final-sale items are marked as final sale, and prior purchases are not adjusted. Shipping promotions are limited to the 48 contiguous United States and exclude Alaska, Hawaii, and international destinations.",
+          "source_url": "https://www.calpaktravel.com/pages/promotion-terms",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open CALPAK's official U.S. site and use the mailing-list form if the email-signup offer fits the purchase.",
+        "Check the official Sale page for an eligible marked-down item and review whether it is marked final sale before adding it to the bag.",
+        "Do not try to stack another offer on a sale item; CALPAK says sale items are not eligible for additional discounts and offers cannot be combined.",
+        "For free standard shipping, confirm that the order is at least $75 and ships to one of the 48 contiguous United States, then verify the final total before payment."
+      ],
+      "faqs": [
+        {
+          "question": "Does CALPAK publish a current discount or promo code?",
+          "answer": "The official CALPAK U.S. pages checked for this guide do not publicly display a reusable code value. CALPAK instead advertises 10% off through its email signup, so this guide does not copy a code from a third-party coupon site."
+        },
+        {
+          "question": "Can a CALPAK sale item receive another discount?",
+          "answer": "No. CALPAK's promotion terms say sale items are not eligible for additional discounts and that an offer cannot be used with another offer."
+        },
+        {
+          "question": "How do I get CALPAK free shipping?",
+          "answer": "CALPAK displays free standard shipping on orders of $75 or more. Its promotion terms limit shipping promotions to the 48 contiguous United States and exclude Alaska, Hawaii, and international destinations."
+        }
+      ],
+      "source_name": "CALPAK official Sale page",
+      "source_url": "https://www.calpaktravel.com/collections/sale",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
