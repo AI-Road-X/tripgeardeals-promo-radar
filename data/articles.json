@@ -399,6 +399,64 @@
       "source_name": "Pakt official Closeout",
       "source_url": "https://paktbags.com/collections/warehouse-sale-2025",
       "fetched_at": "2026-09-27T00:00:00Z"
+    },
+    {
+      "slug": "saily-coupon-code",
+      "layout": "discount",
+      "title": "Saily Coupon Code: Official Checkout and Referral Guide",
+      "description": "Official Saily coupon-code, checkout, and referral information checked on September 27, 2026.",
+      "published_at": "2026-09-27T00:00:00Z",
+      "updated_at": "2026-09-27T00:00:00Z",
+      "target_keyword": "saily coupon code",
+      "target_keywords": [
+        "saily coupon code",
+        "saily discount code",
+        "saily promo code",
+        "saily esim coupon",
+        "saily referral code"
+      ],
+      "provider": "Saily",
+      "brand_name": "Saily",
+      "faq_heading": "Saily coupon code FAQs",
+      "how_to_heading": "How to use an official Saily coupon",
+      "answer": "Saily's official coupon page says new customers can apply a coupon at checkout for their first Saily eSIM plan, but it does not publicly display a coupon value on the page. Choose a plan, select “Go to checkout,” click “Got a coupon?”, enter an official code, and select “Apply.”",
+      "facts": [
+        {
+          "offer": "Official coupon for a first Saily eSIM plan",
+          "condition": "Saily says new customers can apply a coupon at checkout and pay less for a first Saily eSIM plan. The official page does not publicly display a code or discount amount, so neither is listed here.",
+          "source_url": "https://saily.com/coupon/",
+          "fetched_at": "2026-09-27T00:00:00Z"
+        },
+        {
+          "offer": "Refer a Friend — CHF 4.00 Saily credit per successful referral",
+          "condition": "Invite friends or family using Saily's referral flow. Saily says the credit is earned for every successful referral; see the program terms before relying on a particular referral outcome.",
+          "source_url": "https://saily.com/coupon/",
+          "fetched_at": "2026-09-27T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Choose a Saily eSIM plan and select “Go to checkout.”",
+        "Select the “Got a coupon?” button.",
+        "Enter an official coupon code and select “Apply.”",
+        "Confirm that the checkout total reflects the offer before completing payment."
+      ],
+      "faqs": [
+        {
+          "question": "Where do I enter a Saily coupon code?",
+          "answer": "Saily's official coupon page says to choose a plan, go to checkout, select “Got a coupon?”, enter the code, and select “Apply.” It says this works in the app and on the web."
+        },
+        {
+          "question": "Can I use a Saily coupon code more than once?",
+          "answer": "Saily says discount codes generally can be used once per account. Check the terms for the particular campaign for the applicable conditions."
+        },
+        {
+          "question": "Does Saily have a referral code?",
+          "answer": "Saily's official coupon page describes a referral program that grants CHF 4.00 in Saily credits for every successful referral. Review the program terms before sharing a referral link."
+        }
+      ],
+      "source_name": "Saily official coupon page",
+      "source_url": "https://saily.com/coupon/",
+      "fetched_at": "2026-09-27T00:00:00Z"
     }
   ]
 }
