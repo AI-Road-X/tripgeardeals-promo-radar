@@ -579,6 +579,73 @@
       "source_name": "BÉIS official promotions page",
       "source_url": "https://beistravel.com/pages/promotions",
       "fetched_at": "2026-09-27T00:00:00Z"
+    },
+    {
+      "slug": "travelpro-discount-code",
+      "layout": "discount",
+      "title": "Travelpro Discount Code: Official OPTIMA25 Offer Guide",
+      "description": "Travelpro's official OPTIMA25 offer, free-shipping threshold, and promotion restrictions checked on September 27, 2026.",
+      "published_at": "2026-09-27T00:00:00Z",
+      "updated_at": "2026-09-27T00:00:00Z",
+      "target_keyword": "travelpro discount code",
+      "target_keywords": [
+        "travelpro discount code",
+        "travelpro promo code",
+        "travelpro coupon",
+        "travelpro coupon code",
+        "travelpro luggage coupons",
+        "travel pro discount code",
+        "travel pro coupon code",
+        "travel pro coupon"
+      ],
+      "provider": "Travelpro",
+      "brand_name": "Travelpro",
+      "faq_heading": "Travelpro discount code FAQs",
+      "how_to_heading": "How to use the official Travelpro discount code",
+      "answer": "Yes. Travelpro's official U.S. site currently lists OPTIMA25: “25% Off Optima Use Code OPTIMA25 At Checkout.” Enter the code at checkout for an eligible Optima item. Travelpro also lists “FREE SHIPPING OVER $150!” for domestic orders; promotional codes cannot be combined or stacked with other offers, and sets, deal items, clearance, discontinued, and sold-out items are not eligible for additional discounts.",
+      "facts": [
+        {
+          "offer": "OPTIMA25 — “25% Off Optima”",
+          "condition": "Travelpro's official site says “Use Code OPTIMA25 At Checkout.” Enter it at checkout for an eligible Optima item. Its FAQ says promotional codes cannot be combined or stacked with other promo codes, discounts, or offers; products marked as a deal or already discounted do not qualify for additional promo codes.",
+          "source_url": "https://travelpro.com/",
+          "fetched_at": "2026-09-27T00:00:00Z"
+        },
+        {
+          "offer": "“FREE SHIPPING OVER $150!”",
+          "condition": "Travelpro's official site lists free shipping on domestic orders of $150 or more. Confirm the current shipping method and final checkout total before payment.",
+          "source_url": "https://travelpro.com/",
+          "fetched_at": "2026-09-27T00:00:00Z"
+        },
+        {
+          "offer": "One promotional offer per order",
+          "condition": "Travelpro's official FAQ says sets are already priced at the best value and are not eligible for additional discounts. It also says discounts cannot be applied to clearance, discontinued, or sold-out items, and it does not offer price adjustments or later discount requests on promotional purchases.",
+          "source_url": "https://travelpro.com/pages/travelpro-f-a-q-frequently-asked-questions",
+          "fetched_at": "2026-09-27T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open Travelpro's official U.S. site and select an eligible Optima item that is not already marked as a deal or discounted.",
+        "Add the item to cart and continue to checkout.",
+        "Enter OPTIMA25 at checkout and confirm that the discount appears before payment.",
+        "Use only one promotion for the order. If free shipping is needed, confirm the order qualifies as a domestic purchase over $150 and review the final checkout total."
+      ],
+      "faqs": [
+        {
+          "question": "What is the current official Travelpro promo code?",
+          "answer": "Travelpro's official U.S. site currently lists OPTIMA25 with the wording “25% Off Optima Use Code OPTIMA25 At Checkout.” Recheck the official page before buying because promotions can change."
+        },
+        {
+          "question": "Can I combine Travelpro discount codes or offers?",
+          "answer": "No. Travelpro's official FAQ says it allows one promotional offer per order and that promotional codes cannot be combined or stacked with other promo codes, discounts, or offers."
+        },
+        {
+          "question": "Which Travelpro items are not eligible for additional discounts?",
+          "answer": "Travelpro says sets, items marked as a deal or already discounted, clearance, discontinued, and sold-out items are not eligible for additional discounts. It also says it does not offer price adjustments or later discount requests on promotional purchases."
+        }
+      ],
+      "source_name": "Travelpro official U.S. site",
+      "source_url": "https://travelpro.com/",
+      "fetched_at": "2026-09-27T00:00:00Z"
     }
   ]
 }
