@@ -457,6 +457,61 @@
       "source_name": "Saily official coupon page",
       "source_url": "https://saily.com/coupon/",
       "fetched_at": "2026-09-27T00:00:00Z"
+    },
+    {
+      "slug": "spothero-promo-code",
+      "layout": "discount",
+      "title": "SpotHero Promo Code: Official First-Reservation Offer",
+      "description": "SpotHero's official FIRSTSPOT10 offer, restrictions, and app checkout steps, checked on September 27, 2026.",
+      "published_at": "2026-09-27T00:00:00Z",
+      "updated_at": "2026-09-27T00:00:00Z",
+      "target_keyword": "spothero promo code",
+      "target_keywords": [
+        "spothero promo code",
+        "spot hero promo code",
+        "spothero coupon",
+        "spothero discount code",
+        "spothero coupon code",
+        "spothero promotion code",
+        "spot hero coupon",
+        "spothero promo"
+      ],
+      "provider": "SpotHero",
+      "brand_name": "SpotHero",
+      "faq_heading": "SpotHero promo code FAQs",
+      "how_to_heading": "How to use the official SpotHero promo code",
+      "answer": "Yes. SpotHero's official page lists FIRSTSPOT10 for 10% off a first reservation in the SpotHero app, up to $5 off. Enter it at checkout. It is one-time use, applies only to first-time reservations, and excludes monthly reservations and SpotHero for Business reservations.",
+      "facts": [
+        {
+          "offer": "FIRSTSPOT10 — 10% off a first reservation, up to $5 off",
+          "condition": "Enter the code at checkout. One-time use only; valid only in the SpotHero app and for first-time reservations. Excludes monthly reservations and SpotHero for Business reservations. The official page does not state an expiration date.",
+          "source_url": "https://spothero.com/about/promo-code",
+          "fetched_at": "2026-09-27T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open the SpotHero app and search for parking for the needed destination and time.",
+        "Select an eligible first-time reservation and continue to checkout.",
+        "Enter FIRSTSPOT10 at checkout before payment.",
+        "Confirm that the discount is reflected and that the reservation is not monthly or a SpotHero for Business reservation before completing payment."
+      ],
+      "faqs": [
+        {
+          "question": "Where can I use FIRSTSPOT10?",
+          "answer": "SpotHero says FIRSTSPOT10 is valid only in the SpotHero app and must be entered at checkout for a first-time reservation."
+        },
+        {
+          "question": "Can I use FIRSTSPOT10 more than once?",
+          "answer": "No. SpotHero's official restrictions say the code is for one-time use only."
+        },
+        {
+          "question": "Why is the SpotHero promo code not working?",
+          "answer": "Check that you are using the SpotHero app for a first-time reservation, that the discount is no more than $5 off, and that the reservation is not monthly or a SpotHero for Business reservation. These are the restrictions on SpotHero's official offer page."
+        }
+      ],
+      "source_name": "SpotHero official promo-code page",
+      "source_url": "https://spothero.com/about/promo-code",
+      "fetched_at": "2026-09-27T00:00:00Z"
     }
   ]
 }
