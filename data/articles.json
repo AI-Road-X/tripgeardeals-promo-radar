@@ -342,6 +342,57 @@
       "source_name": "Radical Storage official promo-code page",
       "source_url": "https://radicalstorage.com/travel/radical-storage-promo-code/",
       "fetched_at": "2026-09-26T08:36:28Z"
+    },
+    {
+      "slug": "pakt-discount-code",
+      "layout": "discount",
+      "title": "Pakt Discount Code: Official Sale and Savings Guide",
+      "description": "Pakt's current official Warehouse Sale, discount-code guidance, and buying steps, checked on September 27, 2026.",
+      "published_at": "2026-09-27T00:00:00Z",
+      "updated_at": "2026-09-27T00:00:00Z",
+      "target_keyword": "pakt discount code",
+      "target_keywords": [
+        "pakt discount code",
+        "pakt promo code",
+        "pakt coupon code",
+        "pakt coupons"
+      ],
+      "provider": "Pakt",
+      "brand_name": "Pakt",
+      "faq_heading": "Pakt discount code FAQs",
+      "how_to_heading": "How to get the current official Pakt savings",
+      "answer": "Pakt's current official Warehouse Sale lists selected closeout travel bags at 40% off. This guide does not list a promo code because the official sale page does not publish one; choose an eligible Warehouse Sale item and confirm its sale price before checkout.",
+      "facts": [
+        {
+          "offer": "Warehouse Sale — selected closeout travel bags at 40% off",
+          "condition": "Shop an item marked \"Save 40%\" on Pakt's official Warehouse Sale page. The listed product and availability can change, so confirm the sale price on the product page before checkout.",
+          "source_url": "https://paktbags.com/collections/warehouse-sale-2025",
+          "fetched_at": "2026-09-27T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open Pakt's official Warehouse Sale page.",
+        "Choose a currently available product marked Save 40%.",
+        "Open the product page and confirm the displayed sale price, selected variant, and availability.",
+        "Add the item to cart and review the final total before completing checkout."
+      ],
+      "faqs": [
+        {
+          "question": "Is there a current Pakt discount code?",
+          "answer": "This guide does not list a code because Pakt's official Warehouse Sale page does not publish one. It does show selected closeout travel bags marked Save 40%."
+        },
+        {
+          "question": "How do I get the Pakt Warehouse Sale price?",
+          "answer": "Visit the official Warehouse Sale page, select an available item marked Save 40%, and confirm the reduced price shown for the selected product before checkout."
+        },
+        {
+          "question": "Why is a Pakt sale item unavailable?",
+          "answer": "Pakt's Warehouse Sale page shows that product availability can vary. Check the item page for the currently available variant and the displayed sale price."
+        }
+      ],
+      "source_name": "Pakt official Warehouse Sale",
+      "source_url": "https://paktbags.com/collections/warehouse-sale-2025",
+      "fetched_at": "2026-09-27T00:00:00Z"
     }
   ]
 }
