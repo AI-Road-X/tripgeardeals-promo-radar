@@ -856,6 +856,82 @@
       "source_name": "CALPAK official Sale page",
       "source_url": "https://www.calpaktravel.com/collections/sale",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "turo-promo-code",
+      "layout": "discount",
+      "title": "Turo Promo Code: Official Discounts and Checkout Rules",
+      "description": "Official Turo promo-code availability, targeted offers, post-trip discounts, and checkout rules checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "turo promo code",
+      "target_keywords": [
+        "turo promo code",
+        "turo discount code",
+        "turo coupon code",
+        "turo coupon",
+        "turo promotion code",
+        "coupons for turo",
+        "turo first time user promo code"
+      ],
+      "provider": "Turo",
+      "brand_name": "Turo",
+      "faq_heading": "Turo promo code FAQs",
+      "how_to_heading": "How to apply a valid Turo promo code",
+      "answer": "Turo's official U.S. help page does not publish an ongoing public promo code or coupon for first-time users, teachers, or military members, and it says third-party coupon codes are invalid. Turo may send eligible guests targeted offers by email, push notification, or SMS. Some hosts may also send a one-time discount after a completed trip for the next booking with that same host within 90 days. Valid Turo promo codes must be applied when the trip is first booked, cannot be combined with another code or promotion, and cannot be transferred or used for a trip started through a third-party site.",
+      "facts": [
+        {
+          "offer": "No ongoing public first-time-user, teacher, or military promo code",
+          "condition": "Turo says it does not offer ongoing promo codes, coupons, or referral links for these groups. It also says third-party codes are invalid and customer support cannot provide a code or change a trip price.",
+          "source_url": "https://help.turo.com/en_us/promotions-and-discounts-or-guests-SkjNVElN5",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Targeted Turo promotions",
+          "condition": "Turo occasionally sends special promotions to eligible guests by email, push notification, or SMS. A valid code is limited to the country of its listed currency, can be used once, must be applied when initially booking, cannot be combined with another code or promotional offer, and cannot be transferred or sold.",
+          "source_url": "https://help.turo.com/en_us/promotions-and-discounts-or-guests-SkjNVElN5",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Post-trip discount from a specific host",
+          "condition": "After a completed trip, some hosts may email a discount code for the next booking with that same host. Turo says it must be used within 90 days, is one-time use, cannot be combined with another promotional offer, and cannot be sold or transferred. If that next trip is canceled before the code expires, the code can be reused with the same host.",
+          "source_url": "https://help.turo.com/en_us/promotions-and-discounts-or-guests-SkjNVElN5",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "10% non-refundable booking discount",
+          "condition": "Turo's official host guidance says this option is available on all vehicles for non-refundable trips booked at least four days in advance. The percentage is fixed, hosts cannot opt out, and a canceled non-refundable trip does not receive a refund after the grace period described by Turo.",
+          "source_url": "https://help.turo.com/en_us/-rJJHrVxVq",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Use only a promotion sent directly by Turo or a post-trip code sent by the host; do not use a code copied from a third-party coupon site.",
+        "On the Turo website, open “Promo code and gift cards” during checkout. In the app, open Payment, tap the arrow next to “Promo code and gift cards,” and choose “+ Add” next to Promo Code.",
+        "Enter the code exactly as received and select Apply before completing the initial booking.",
+        "Confirm the code's country and currency, expiration date, eligible host or trip, and final price. Do not combine it with another code or promotional offer."
+      ],
+      "faqs": [
+        {
+          "question": "Does Turo have a first-time user promo code?",
+          "answer": "Turo says it does not offer an ongoing promo code, coupon, or referral link for first-time users. Eligible guests may receive a targeted promotion directly from Turo by email, push notification, or SMS."
+        },
+        {
+          "question": "Can I use a Turo coupon from a third-party website?",
+          "answer": "No. Turo says third-party promo codes and coupons are invalid, its system cannot accept them, and it does not authorize third parties to distribute codes on its behalf."
+        },
+        {
+          "question": "Can I combine two Turo promo codes?",
+          "answer": "No. Turo says promo codes cannot be combined with another discount code or promotional offer. A valid promo code is also one-time use and must be applied when the trip is initially booked."
+        },
+        {
+          "question": "How does a Turo host's future-trip discount work?",
+          "answer": "Some hosts may email a discount code after a completed trip. Turo says the code applies only to the next booking with that same host, must be used within 90 days, is one-time use, and cannot be combined, sold, or transferred."
+        }
+      ],
+      "source_name": "Turo official promotions and discounts help page",
+      "source_url": "https://help.turo.com/en_us/promotions-and-discounts-or-guests-SkjNVElN5",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
