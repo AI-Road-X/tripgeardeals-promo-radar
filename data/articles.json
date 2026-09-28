@@ -1484,6 +1484,78 @@
       "source_name": "GetYourGuide official discount-code page",
       "source_url": "https://www.getyourguide.com/c/discount-code/",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "klook-promo-code",
+      "layout": "discount",
+      "title": "Klook Promo Code: Official Deals and Voucher Guide",
+      "description": "Official Klook promo-code availability, destination deals, app access, and voucher conditions checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "klook promo code",
+      "target_keywords": [
+        "klook promo code",
+        "klook coupon code",
+        "klook coupon",
+        "klook discount coupon",
+        "klook discount code",
+        "klook voucher code",
+        "klook discount",
+        "klook code",
+        "klook voucher"
+      ],
+      "provider": "Klook",
+      "brand_name": "Klook",
+      "faq_heading": "Klook promo code FAQs",
+      "how_to_heading": "How to use an official Klook deal or voucher",
+      "answer": "Klook's official U.S. deals page shows destination- and product-specific promotions, but the official page checked does not verify one reusable public promo code for every Klook booking. Any code or voucher shown for a selected product must be used only under that product's displayed eligibility, destination, timing, and booking terms.",
+      "facts": [
+        {
+          "offer": "No universal reusable Klook promo code verified",
+          "condition": "The official Klook U.S. deals page displays selected offers and product-level promotions rather than one universal code for all bookings. A promotion shown for one destination or product should not be treated as a sitewide code.",
+          "source_url": "https://www.klook.com/en-US/deals/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Destination- and product-specific Klook deals",
+          "condition": "Klook's official deals page lists offers for selected experiences, destinations, and options. The displayed discount, price, currency, availability, and booking conditions belong to the individual product and can differ by selection.",
+          "source_url": "https://www.klook.com/en-US/deals/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Official Klook app access",
+          "condition": "The official Klook U.S. deals page is the source for the selected promotion and its booking path. Use the official Klook account and checkout flow to confirm whether a displayed offer is available for the selected product.",
+          "source_url": "https://www.klook.com/en-US/deals/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open Klook's official U.S. deals page and select the destination, activity, or product you plan to book.",
+        "Read the selected offer's displayed price, discount, currency, availability, and restrictions; do not carry a product-specific offer to another booking.",
+        "If the official offer provides a voucher or promo-code field, enter it in Klook checkout before payment and apply it to the eligible product.",
+        "Review the final total, cancellation terms, dates, and product-specific conditions before completing the booking."
+      ],
+      "faqs": [
+        {
+          "question": "Does Klook have one universal public promo code?",
+          "answer": "No universal reusable Klook code was verified on the official U.S. deals page checked. Klook presents selected destination- and product-specific promotions instead."
+        },
+        {
+          "question": "Why can a Klook deal work for one activity but not another?",
+          "answer": "Klook's official deals page attaches promotions to selected products, destinations, and options. Eligibility therefore depends on the specific booking rather than the keyword alone."
+        },
+        {
+          "question": "Where do I apply a Klook voucher or code?",
+          "answer": "Use the official Klook checkout flow for the eligible product. If a voucher or promo-code field is provided, enter the official offer there before payment."
+        },
+        {
+          "question": "Can I treat a Klook product discount as a sitewide code?",
+          "answer": "No. A displayed product or destination discount should be used only under the conditions shown for that selected offer."
+        }
+      ],
+      "source_name": "Klook official U.S. deals page",
+      "source_url": "https://www.klook.com/en-US/deals/",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
