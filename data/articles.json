@@ -1412,6 +1412,78 @@
       "source_name": "Amtrak official deals and student-discount pages",
       "source_url": "https://www.amtrak.com/deals",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "get-your-guide-promo-code",
+      "layout": "discount",
+      "title": "GetYourGuide Promo Code: Official First-Booking Discount Guide",
+      "description": "Official GetYourGuide promo-code availability, first-booking discount, app redemption, and eligibility rules checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "get your guide promo code",
+      "target_keywords": [
+        "get your guide promo code",
+        "get your guide discount code",
+        "get your guide coupon",
+        "get your guide coupon code",
+        "promo code for get your guide",
+        "discount code get your guide",
+        "get your guide promotion code",
+        "getyourguide promocode",
+        "get your guide promo"
+      ],
+      "provider": "GetYourGuide",
+      "brand_name": "GetYourGuide",
+      "faq_heading": "GetYourGuide promo code FAQs",
+      "how_to_heading": "How to use an official GetYourGuide discount",
+      "answer": "GetYourGuide's official discount page currently offers new users an exclusive 10% discount code after email sign-up for a first experience. The code is account- and eligibility-based: login is required and it can be used once per user. It is not a general reusable public code; enter the code at checkout in the official app as instructed by GetYourGuide.",
+      "facts": [
+        {
+          "offer": "10% off a first experience with an email-delivered code",
+          "condition": "GetYourGuide says new users can enter an email address to receive an exclusive discount code for 10% off their first unforgettable travel experience. Login is required and the discount can be used only once per user; the page's terms and exclusions apply.",
+          "source_url": "https://www.getyourguide.com/c/discount-code/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "App checkout redemption",
+          "condition": "GetYourGuide instructs users to download the app, choose an experience, and enter the received code at checkout. The offer is tied to the eligible account and the official offer terms, not a code that can be copied from a public list.",
+          "source_url": "https://www.getyourguide.com/c/discount-code/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Official app access and deal updates",
+          "condition": "GetYourGuide's app page says the app provides exclusive deals and updates for upcoming activities. App availability does not by itself create a general public promo code; check the deal displayed for the signed-in account.",
+          "source_url": "https://www.getyourguide.com/apps?cmp=travel_app",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open GetYourGuide's official discount page and enter your email if you qualify as a new user seeking the first-experience offer.",
+        "Sign in to the eligible GetYourGuide account and open the official app as instructed on the offer page.",
+        "Choose an eligible tour, activity, attraction, or experience, then enter the received code in the Promo Code field at checkout.",
+        "Confirm that the discount applies before payment and review the offer terms, exclusions, and cancellation conditions."
+      ],
+      "faqs": [
+        {
+          "question": "Does GetYourGuide have a current public promo code?",
+          "answer": "The official page provides an email-delivered 10% code for a new user's first experience. It is not a general reusable public code because login, new-user status, and one-use-per-user limits apply."
+        },
+        {
+          "question": "Who can use the GetYourGuide first-experience discount?",
+          "answer": "GetYourGuide identifies new users as eligible and says login is required. The code can be used only once per user, subject to the official offer terms."
+        },
+        {
+          "question": "Where do I enter a GetYourGuide promo code?",
+          "answer": "GetYourGuide says to choose an experience in the app and enter the code at checkout in the Promo Code field."
+        },
+        {
+          "question": "Can I use the same GetYourGuide code more than once?",
+          "answer": "No. The official discount page says the offer is for new users, requires login, and can be used only once per user."
+        }
+      ],
+      "source_name": "GetYourGuide official discount-code page",
+      "source_url": "https://www.getyourguide.com/c/discount-code/",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
