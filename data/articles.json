@@ -1877,6 +1877,88 @@
       "source_name": "Hilton official offers and rates pages",
       "source_url": "https://www.hilton.com/en/offers/",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "riu-promo-code",
+      "layout": "discount",
+      "title": "RIU Promo Code: Official RIU Class Discounts and Offers Guide",
+      "description": "Official RIU promo-code availability, RIU Class member discounts, welcome-code entry, and corporate booking rules checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "riu promo code",
+      "target_keywords": [
+        "riu promo code",
+        "promo code for riu hotels",
+        "riu palace promo code",
+        "riu coupon code",
+        "riu coupons",
+        "riu hotel coupon code",
+        "riu discount code",
+        "riu welcome code",
+        "riu promo",
+        "riu hotel discount code",
+        "riu class welcome code",
+        "riu promotional code",
+        "riu com promo code"
+      ],
+      "provider": "RIU",
+      "brand_name": "RIU Hotels & Resorts",
+      "faq_heading": "RIU promo code FAQs",
+      "how_to_heading": "How to use an official RIU offer",
+      "answer": "RIU's official pages do not verify one universal reusable public promo code. Current official savings are tied to RIU Class membership, named hotel or campaign offers, or a corporate booking route. RIU Class members can receive an extra member rate, and the official RIU Plaza offer lists code RCPLAZA for members when booking eligible Riu Plaza hotels.",
+      "facts": [
+        {
+          "offer": "No universal reusable RIU promo code verified",
+          "condition": "RIU's official pages show membership rates, named offers, and a separate corporate-code booking route rather than one code that applies to every RIU booking. The selected offer's hotel, dates, account, and eligibility terms control.",
+          "source_url": "https://www.riu.com/en/ofertas/home.jsp",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "RCPLAZA — up to 10% off for RIU Class members",
+          "condition": "RIU's official Riu Plaza offer says Riu Class members receive up to an extra 10% off on all Riu Plaza hotels and instructs members to enter RCPLAZA at the last step of booking. Membership and the offer's hotel and booking terms apply.",
+          "source_url": "https://www.riu.com/en/ofertas/private-sales-riu-plaza-riu-class-US.jsp",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "RIU Class member rate — up to 10% off",
+          "condition": "RIU says the RIU Class member rate is available to members and is displayed automatically when a member is logged in. The official benefits page states that the offer applies to hotel reservations in Riu Plaza and all-inclusive resorts in the Americas and Asia, excluding flight-plus-hotel packages.",
+          "source_url": "https://www.riu.com/en/ofertas/benefits-riu-class-members.jsp",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Corporate code booking route",
+          "condition": "RIU provides a dedicated corporate-code page and says searches must be limited to the corresponding dates and hotel. A corporate code is an eligibility-based booking input, not a public consumer code.",
+          "source_url": "https://www.riu.com/en/posts/corporate-code.jsp",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Join or sign in to RIU Class if you want to check member rates or use an offer restricted to members.",
+        "Choose the eligible RIU hotel, dates, and booking type shown by the official offer.",
+        "For the official Riu Plaza member offer, enter RCPLAZA at the last step of booking as RIU instructs; use a corporate code only through RIU's corporate-code route if eligible.",
+        "Review the final rate, resort or hotel scope, package exclusions, cancellation terms, and any member or corporate conditions before payment."
+      ],
+      "faqs": [
+        {
+          "question": "Does RIU have one universal public promo code?",
+          "answer": "No universal reusable RIU code was verified on the official pages checked. RIU's savings are tied to RIU Class, named hotel offers, campaigns, or corporate eligibility."
+        },
+        {
+          "question": "Who can use RIU code RCPLAZA?",
+          "answer": "RIU's official offer identifies RCPLAZA for RIU Class members booking eligible Riu Plaza hotels. The code is entered at the last step of the booking process under the offer's terms."
+        },
+        {
+          "question": "How does the RIU Class member rate work?",
+          "answer": "RIU says the member rate can appear automatically after a member signs in. The listed scope covers Riu Plaza and all-inclusive resorts in the Americas and Asia, excluding flight-plus-hotel packages."
+        },
+        {
+          "question": "Can anyone use a RIU corporate code?",
+          "answer": "No. RIU's corporate-code page is a dedicated route for eligible corporate bookings and requires the search to match the corresponding hotel and dates."
+        }
+      ],
+      "source_name": "RIU official RIU Class and offers pages",
+      "source_url": "https://www.riu.com/en/riu-class/benefits",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
