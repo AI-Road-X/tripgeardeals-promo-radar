@@ -1017,6 +1017,84 @@
       "source_name": "Hertz official rental car deals and offers",
       "source_url": "https://www.hertz.com/us/en/deals-and-offers",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "expedia-promo-code",
+      "layout": "discount",
+      "title": "Expedia Promo Code: Official Coupons and Member Prices Guide",
+      "description": "Official Expedia coupon availability, One Key Member Prices, app savings, student-offer status, and redemption rules checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "expedia promo code",
+      "target_keywords": [
+        "expedia promo code",
+        "expedia coupon",
+        "expedia coupon code",
+        "expedia promotion code",
+        "expedia discount code",
+        "expedia hotel coupon",
+        "expedia hotel coupon code",
+        "expedia hotel promo code",
+        "expedia student discount"
+      ],
+      "provider": "Expedia",
+      "brand_name": "Expedia",
+      "faq_heading": "Expedia promo code FAQs",
+      "how_to_heading": "How to use an official Expedia coupon or member price",
+      "answer": "The Expedia official coupon page checked for this guide does not publicly display a current reusable promo-code value. It explains where to enter an Expedia voucher at checkout and says eligibility restrictions apply. Current official savings include One Key Member Prices of 10% or more on select hotels, homes, and car rentals, tiered hotel savings for eligible members, and app-only hotel deals of up to 20% on select hotels. These are qualification or access-based prices, not a public code. The official student page checked shows only a past promotion, so no current student code is listed.",
+      "facts": [
+        {
+          "offer": "No current public Expedia coupon value verified",
+          "condition": "Expedia's official coupon page explains how to apply a voucher or promotion code but does not publicly display a current reusable code value on the page checked. It says to check trip eligibility, choose Pay Now when available, enter the code at payment, and review exclusions.",
+          "source_url": "https://www.expedia.com/lp/b/coupons",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "One Key Member Prices — 10% or more on select travel",
+          "condition": "Expedia says logged-in One Key members can get 10% or more on select hotels, homes, and car rentals. The page lists higher hotel savings for Silver, Gold, and Platinum tiers. Member Prices apply only to eligible properties and dates; taxes and fees are excluded, blackout periods or minimum stays may apply, and availability can change.",
+          "source_url": "https://www.expedia.com/lp/b/member-prices-education",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Expedia App deals — up to 20% on select hotels",
+          "condition": "Expedia advertises up to 20% off select hotels when booking in the app. The Member Prices terms say the user must be logged in, displayed prices include the promotional discount and exclude taxes and fees, blackout periods or minimum stays may apply, and offers may be discontinued without notice.",
+          "source_url": "https://www.expedia.com/member-price?locale=en_US%3AROW&siteid=1&sl=exr",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Student discount — no current official offer verified",
+          "condition": "The official student coupon page checked for this guide shows terms for a past promotion rather than a current redemption window. No current student discount code is listed here; an expired code is not included in this guide.",
+          "source_url": "https://www.expedia.com/lp/b/usstudentpricecardpub10htl20230417",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Sign in to Expedia or use the Expedia app before searching if you want to check One Key Member Prices or app-only offers.",
+        "On the official coupon page, check that the trip is eligible and choose Pay Now when the page presents that option.",
+        "At payment, select “Enter a coupon or promotion code” on the website, or “Coupon Code” in the app, then enter only a code received through an eligible Expedia offer and select Apply.",
+        "Review the final price, taxes, fees, hotel or package exclusions, blackout periods, minimum-stay rules, and availability before completing payment."
+      ],
+      "faqs": [
+        {
+          "question": "Does Expedia publish a current public promo code?",
+          "answer": "The official Expedia coupon page checked for this guide does not publicly display a current reusable code value. It explains how to redeem an eligible voucher and directs travelers to official deals when no code is available."
+        },
+        {
+          "question": "How do Expedia One Key Member Prices work?",
+          "answer": "Expedia says logged-in One Key members can receive 10% or more on select hotels, homes, and car rentals, with higher hotel savings available at some tiers. The price applies only where the Member Price banner appears and can change with the property and dates."
+        },
+        {
+          "question": "Is the Expedia student discount currently available?",
+          "answer": "No current student code was verified on the official Expedia pages checked for this guide. The student coupon page shows a past promotion, so its old code and dates are not presented as current."
+        },
+        {
+          "question": "Where do I enter an Expedia coupon code?",
+          "answer": "On the website, use “Enter a coupon or promotion” on the payment page. In the Expedia app, choose “Coupon Code” on the checkout page, enter the eligible code, and select Apply."
+        }
+      ],
+      "source_name": "Expedia official coupons page",
+      "source_url": "https://www.expedia.com/lp/b/coupons",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
