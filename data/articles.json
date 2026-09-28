@@ -1173,6 +1173,90 @@
       "source_name": "Enterprise official deals and promotions pages",
       "source_url": "https://www.enterprise.com/en/car-rental/deals.html",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "priceline-promo-code",
+      "layout": "discount",
+      "title": "Priceline Promo Code: Official Coupons and Member Savings Guide",
+      "description": "Official Priceline promo-code availability, app deals, email coupons, member prices, and eligibility notes checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "priceline promo code",
+      "target_keywords": [
+        "priceline promo code",
+        "priceline coupon codes",
+        "priceline car promo code",
+        "priceline coupon",
+        "priceline car coupon",
+        "priceline coupon code hotel",
+        "priceline promo code hotel",
+        "priceline hotel coupon",
+        "priceline car rental coupon"
+      ],
+      "provider": "Priceline",
+      "brand_name": "Priceline",
+      "faq_heading": "Priceline promo code FAQs",
+      "how_to_heading": "How to use an official Priceline offer",
+      "answer": "The Priceline official pages checked do not provide a currently verified reusable public promo-code value for this guide. Current official savings are presented through app-only deals, email-only coupons, Priceline member pricing, and eligibility-based military and veteran travel offers. A code shown in an expired or past promotion is not listed as current.",
+      "facts": [
+        {
+          "offer": "No current reusable public Priceline promo code verified",
+          "condition": "The official Priceline pages checked show current deal channels and coupon-entry messaging, but no reusable public code that can be verified as current for general U.S. use on this date. Expired promotion codes are excluded.",
+          "source_url": "https://www.priceline.com/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "App-only hotel, flight, and rental-car deals",
+          "condition": "Priceline says its best deals are in the app and describes hotel, flight, and rental-car deals available exclusively in the app. Availability and terms must be checked in the app for the selected booking.",
+          "source_url": "https://offers.priceline.com/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Email-only coupons and promotions",
+          "condition": "Priceline invites travelers to sign up for exclusive email-only coupons, special offers, and promotions. This is an access channel rather than a publicly reusable code displayed on the page.",
+          "source_url": "https://www.priceline.com/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Priceline member prices and VIP benefits",
+          "condition": "Priceline says members always get its best price and promotes VIP-related benefits and points. Membership access and the terms shown for the booking are required; these are member benefits, not a public promo code.",
+          "source_url": "https://www.priceline.com/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Military and veteran travel offers",
+          "condition": "Priceline directs eligible military members, veterans, and Department of Defense civilians to American Forces Travel for exclusive travel deals and benefits. Eligibility terms apply; this is a qualification-based channel, not a public Priceline code.",
+          "source_url": "https://www.priceline.com/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open Priceline's official site or app and sign in if you want to check member pricing or app-only deals.",
+        "Choose the hotel, flight, package, car, or activity and review the deal's eligibility, dates, and booking conditions.",
+        "If Priceline provides an eligible coupon through an official email or promotion, enter it in the coupon field shown in the booking flow before payment.",
+        "Review the final total, taxes, fees, cancellation terms, and any member or app restrictions before completing the booking."
+      ],
+      "faqs": [
+        {
+          "question": "Does Priceline have a current public promo code?",
+          "answer": "No current reusable public Priceline code was verified on the official pages checked for this guide. Priceline's current savings channels include app deals, email-only coupons, member pricing, and eligibility-based offers."
+        },
+        {
+          "question": "Where can I find Priceline's app deals?",
+          "answer": "Priceline directs travelers to its app for hotel, flight, and rental-car deals. Open the official app and check the terms shown for the selected booking."
+        },
+        {
+          "question": "Are Priceline member prices a promo code?",
+          "answer": "No. Priceline member prices and VIP benefits are access-based benefits tied to a member account and the terms of the booking, not a public promo code."
+        },
+        {
+          "question": "Where are Priceline military and veteran offers handled?",
+          "answer": "Priceline directs eligible military members, veterans, and Department of Defense civilians to American Forces Travel. Eligibility terms apply and the offer is not a general public Priceline code."
+        }
+      ],
+      "source_name": "Priceline official site and offers pages",
+      "source_url": "https://www.priceline.com/",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
