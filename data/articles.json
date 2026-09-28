@@ -1095,6 +1095,84 @@
       "source_name": "Expedia official coupons page",
       "source_url": "https://www.expedia.com/lp/b/coupons",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "enterprise-promo-code",
+      "layout": "discount",
+      "title": "Enterprise Promo Code: Official Rental Deals and Eligibility Guide",
+      "description": "Official Enterprise promo-code availability, current rental deals, Enterprise Plus access, and eligibility rules checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "enterprise promo code",
+      "target_keywords": [
+        "enterprise promo code",
+        "enterprise rental discount codes",
+        "enterprise rental coupons",
+        "enterprise rent a car coupon codes",
+        "enterprise rental car discount codes",
+        "enterprise car rental promo code",
+        "enterprise rental promo code",
+        "promotion code for enterprise car rental",
+        "enterprise rental coupon code"
+      ],
+      "provider": "Enterprise",
+      "brand_name": "Enterprise Rent-A-Car",
+      "faq_heading": "Enterprise Rent-A-Car promo code FAQs",
+      "how_to_heading": "How to use an official Enterprise rental offer",
+      "answer": "The Enterprise official pages checked do not publicly display a current reusable promo-code value. Enterprise currently lists an offer of up to 15% off the base rate for rentals of 3 days or more, delivered through an official deal link or the Enterprise website or app. Enterprise Plus points and member communications are qualification-based benefits, not public promo codes. Military, government, and veteran rates are also eligibility-based and require the applicable official rate terms.",
+      "facts": [
+        {
+          "offer": "No current reusable public Enterprise promo code verified",
+          "condition": "Enterprise's official discounts page describes promotions, partnership coupons, email specials, and Enterprise Plus benefits, but the official pages checked do not display a current reusable public code value. Enterprise says not all cities participate, only one discount or coupon code can typically be used at a time, and blackout dates or limited availability may apply.",
+          "source_url": "https://www.enterprise.com/en/car-rental-faqs/us-general/car-rental-discounts-and-promotions.html",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Up to 15% off a rental of 3 days or more",
+          "condition": "Enterprise's current deal page says the offer saves up to 15% off the base rate (time and mileage) for a rental of 3 days or more. The offer is accessed through the official deal page or the link provided by Enterprise, and the linked offer says it cannot be combined with another discount or applied to a previous or existing reservation or rental.",
+          "source_url": "https://www.enterprise.com/en/car-rental/deals/15off3daysormore.html",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Enterprise Plus points and free rental days",
+          "condition": "Enterprise Plus members can earn points on qualifying rentals and redeem points for free rental days under the program terms. This is a membership benefit and not a public promo code; restrictions and excluded rental types apply under the official terms.",
+          "source_url": "https://www.enterprise.com/en/loyalty/enterprise-plus-terms-conditions.html",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Military, government, and veteran rates",
+          "condition": "Enterprise lists military, government, and veterans car-rental rates as special rates with terms. Eligibility and the applicable official rate rules must be checked before booking; this is a qualification-based rate, not a public code.",
+          "source_url": "https://www.enterprise.com/en/car-rental/deals.html",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open Enterprise's official deals page and select the offer or booking link that matches your rental.",
+        "Check the pickup location, rental length, vehicle class, dates, and any blackout or participation limits before booking.",
+        "If Enterprise provides a code or eligibility link for your offer, enter it in the reservation flow before the rental is picked up; do not expect a discount to be added after pickup.",
+        "Review the base rate, taxes, fees, exclusions, and final total before completing the reservation."
+      ],
+      "faqs": [
+        {
+          "question": "Does Enterprise publish a current public promo code?",
+          "answer": "The official Enterprise pages checked do not display a current reusable public promo-code value. Current savings are presented through official deal links, membership benefits, partnership offers, or eligibility-based rates."
+        },
+        {
+          "question": "How does the current Enterprise rental deal work?",
+          "answer": "Enterprise currently lists up to 15% off the base rate for a rental of 3 days or more. The linked offer has its own terms and says it cannot be combined with another discount or applied to a previous or existing reservation or rental."
+        },
+        {
+          "question": "Is Enterprise Plus a promo code?",
+          "answer": "No. Enterprise Plus is a membership program that can provide points and free rental-day benefits under its terms. It is not a public promo code."
+        },
+        {
+          "question": "Can a discount be added after pickup?",
+          "answer": "Enterprise's official FAQ says a discount cannot be added after the customer has already picked up the vehicle. Check eligibility and apply the applicable offer before pickup."
+        }
+      ],
+      "source_name": "Enterprise official deals and promotions pages",
+      "source_url": "https://www.enterprise.com/en/car-rental/deals.html",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
