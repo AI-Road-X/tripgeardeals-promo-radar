@@ -1959,6 +1959,74 @@
       "source_name": "RIU official RIU Class and offers pages",
       "source_url": "https://www.riu.com/en/riu-class/benefits",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "marriott-promo-code",
+      "layout": "discount",
+      "title": "Marriott Promo Code: Official Bonvoy Offers and Member Rates Guide",
+      "description": "Official Marriott promo-code availability, Bonvoy member rates, participating-property offers, and qualification-based booking routes checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "marriott promo code",
+      "target_keywords": ["marriott promo code"],
+      "provider": "Marriott",
+      "brand_name": "Marriott Bonvoy",
+      "faq_heading": "Marriott promo code FAQs",
+      "how_to_heading": "How to use an official Marriott offer",
+      "answer": "Marriott's official pages do not verify one universal reusable public promo code for every hotel. Current official routes include the participating-property Marriott Bonvoy Escapes offer, Bonvoy member rates and app access, and qualification-based government or corporate rates. Any code shown on an official offer page applies only under that offer's property, dates, and booking terms.",
+      "facts": [
+        {
+          "offer": "No universal reusable Marriott promo code verified",
+          "condition": "Marriott's official offer pages present property-specific promotions and member or qualification-based rates rather than one code that applies to every Marriott booking. The selected offer's availability and terms control.",
+          "source_url": "https://www.marriott.com/offers/special-offers/last-minute-hotel-deals.mi",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "QRI — Marriott Bonvoy Escapes offer code",
+          "condition": "Marriott's official offer page displays promo code QRI for its Marriott Bonvoy Escapes offer. Marriott describes Bonvoy Escapes as limited-time discounted rates at participating properties; check the selected property's dates, availability, and offer terms before applying it.",
+          "source_url": "https://www.marriott.com/offers/special-offers/last-minute-hotel-deals.mi",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Marriott Bonvoy member rates and app access",
+          "condition": "Marriott says membership is free and provides access to member prices, points, and app booking features. Member rates and benefits require the applicable Bonvoy account and booking channel terms.",
+          "source_url": "https://marriott.com/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Government or corporate qualification rates",
+          "condition": "Marriott provides dedicated government and corporate booking routes for eligible travelers. These are qualification-based rates, not general public promo codes, and the applicable credentials and booking conditions must be met.",
+          "source_url": "https://corporatedealsgov.marriott.com/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open Marriott's official offers page and choose the promotion or rate that matches your dates and participating property.",
+        "Sign in to Marriott Bonvoy when checking member pricing or using the Marriott Bonvoy app.",
+        "For the official Marriott Bonvoy Escapes offer, enter QRI only where the offer page and booking flow accept it, then confirm the eligible rate appears.",
+        "Review property participation, dates, room type, cancellation terms, taxes, fees, and any member, government, or corporate requirements before payment."
+      ],
+      "faqs": [
+        {
+          "question": "Does Marriott have one universal public promo code?",
+          "answer": "No universal reusable Marriott code was verified on the official pages checked. Marriott offers are tied to participating properties, Bonvoy membership, or qualification-based booking routes."
+        },
+        {
+          "question": "What is Marriott code QRI?",
+          "answer": "Marriott's official offer page displays QRI for its Marriott Bonvoy Escapes offer. It is limited to that offer's participating properties, dates, availability, and terms."
+        },
+        {
+          "question": "Are Marriott Bonvoy member rates public promo codes?",
+          "answer": "No. Bonvoy member rates are account-based benefits accessed through Marriott's official booking channels after joining or signing in."
+        },
+        {
+          "question": "Who can use Marriott government or corporate rates?",
+          "answer": "Only travelers who meet the applicable government or corporate eligibility can use those dedicated booking routes. They are not general public codes."
+        }
+      ],
+      "source_name": "Marriott official offers and Bonvoy pages",
+      "source_url": "https://www.marriott.com/offers/special-offers/last-minute-hotel-deals.mi",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
