@@ -1556,6 +1556,88 @@
       "source_name": "Klook official U.S. deals page",
       "source_url": "https://www.klook.com/en-US/deals/",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "agoda-promo-code",
+      "layout": "discount",
+      "title": "Agoda Promo Code: Official Coupons and Hotel Deals Guide",
+      "description": "Official Agoda promo-code availability, collected coupons, hotel deals, app access, and redemption rules checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "agoda promo code",
+      "target_keywords": [
+        "agoda promo code",
+        "agoda coupon code",
+        "agoda coupon",
+        "agoda voucher",
+        "agoda discount code",
+        "agoda discount coupon",
+        "agoda promotion code",
+        "agoda discount",
+        "agoda code",
+        "agoda promo",
+        "agoda promotion",
+        "agoda sale",
+        "agoda offer"
+      ],
+      "provider": "Agoda",
+      "brand_name": "Agoda",
+      "faq_heading": "Agoda promo code FAQs",
+      "how_to_heading": "How to use an official Agoda coupon or deal",
+      "answer": "Agoda's official U.S. deals page does not verify one universal reusable promo code for every booking. It currently presents collected coupons, property-level coupon offers, app access, AgodaVIP benefits, and destination or campaign deals. The offer must be collected or activated for the eligible property or booking before payment.",
+      "facts": [
+        {
+          "offer": "No universal reusable Agoda promo code verified",
+          "condition": "The official Agoda deals page shows coupons and promotions tied to eligible properties, destinations, campaigns, or booking channels. It does not display one reusable code that applies to every Agoda booking on the page checked.",
+          "source_url": "https://www.agoda.com/deals?hl=en-us",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Collected coupons for eligible hotels",
+          "condition": "Agoda instructs users to find and collect a coupon, search for properties carrying the “Coupon applicable” label, and apply the coupon or promotion code before completing payment. Availability and terms belong to the selected property and coupon.",
+          "source_url": "https://www.agoda.com/deals?hl=en-us",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Agoda app deals and discounts",
+          "condition": "Agoda says the app provides access to deals, offers, and discounts. App availability is a booking channel and does not create a universal code; check the offer shown for the signed-in account and selected property.",
+          "source_url": "https://www.agoda.com/deals?hl=en-us",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "AgodaVIP benefits and special rates",
+          "condition": "Agoda's official deals page presents AgodaVIP as a source of exclusive benefits and deals. This is an account or program access route, not a public code; eligibility and displayed booking terms apply.",
+          "source_url": "https://www.agoda.com/deals?hl=en-us",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open Agoda's official U.S. deals page and choose the hotel, destination, or campaign that matches your booking.",
+        "Collect the coupon or activate the offer when the page provides that action, then search for a property marked “Coupon applicable” if required.",
+        "Apply the coupon or promotion code before completing payment, as Agoda instructs on its official deals page.",
+        "Review the property terms, minimum spend or stay conditions, taxes, fees, cancellation policy, and final total before payment."
+      ],
+      "faqs": [
+        {
+          "question": "Does Agoda have one universal public promo code?",
+          "answer": "No universal reusable Agoda code was verified on the official U.S. deals page checked. Agoda presents coupons and promotions for eligible properties, destinations, campaigns, and booking channels."
+        },
+        {
+          "question": "How do I use an Agoda coupon?",
+          "answer": "Agoda says to find and collect a coupon, search for a property with the “Coupon applicable” label, and apply the coupon or promotion code before completing payment."
+        },
+        {
+          "question": "Are AgodaVIP deals a public promo code?",
+          "answer": "No. AgodaVIP is an account or program route for exclusive benefits and deals. The eligibility and booking terms shown by Agoda apply."
+        },
+        {
+          "question": "Can an Agoda offer apply to every hotel?",
+          "answer": "No. Agoda's official deals page ties coupons and promotions to eligible properties, products, destinations, or campaigns. Check the selected property's offer label and terms before payment."
+        }
+      ],
+      "source_name": "Agoda official U.S. deals page",
+      "source_url": "https://www.agoda.com/deals?hl=en-us",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
