@@ -2027,6 +2027,80 @@
       "source_name": "Marriott official offers and Bonvoy pages",
       "source_url": "https://www.marriott.com/offers/special-offers/last-minute-hotel-deals.mi",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "hyatt-promo-code",
+      "layout": "discount",
+      "title": "Hyatt Promo Code: Official Rates, Offers and Eligibility Guide",
+      "description": "Official Hyatt promo-code availability, member rates, special offer codes, and eligibility routes checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "hyatt promo code",
+      "target_keywords": [
+        "hyatt promo code",
+        "hyatt special offer code",
+        "hyatt offer code",
+        "hyatt discount codes",
+        "hyatt corporate codes"
+      ],
+      "provider": "Hyatt",
+      "brand_name": "Hyatt",
+      "faq_heading": "Hyatt promo code FAQs",
+      "how_to_heading": "How to use an official Hyatt rate or offer",
+      "answer": "Hyatt's official booking pages do not verify one universal reusable public promo code for every traveler. Savings routes include World of Hyatt member rates, offer-specific codes, government or military rates, and corporate or group codes; each route has its own eligibility and booking conditions.",
+      "facts": [
+        {
+          "offer": "No universal reusable Hyatt promo code verified",
+          "condition": "Hyatt's official booking flow separates Special Offer Code and Corporate or Group Code from member and qualification rates. The selected hotel's offer, dates, availability, and eligibility terms control.",
+          "source_url": "https://www.hyatt.com/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "World of Hyatt member rates",
+          "condition": "Hyatt says World of Hyatt membership is free and gives members access to exclusive offers and member rates at participating hotels. Sign in or join through Hyatt's official channels before booking.",
+          "source_url": "https://www.hyatt.com/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Government and military rates",
+          "condition": "Hyatt says participating U.S. hotels and resorts offer government rates for eligible travelers traveling for government-work-related business. Check the official rate requirements before booking.",
+          "source_url": "https://www.hyatt.com/info/government",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Corporate or group code route",
+          "condition": "Hyatt's booking flow provides a Corporate or Group Code field. Hyatt Leverage explains that eligible company travelers enter their company's code under Special Rates; this is a qualification-based route, not a general public code.",
+          "source_url": "https://www.hyatt.com/leverage/faq",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open Hyatt.com and choose the hotel, dates, room, and rate that match your trip.",
+        "Sign in to World of Hyatt when checking member rates or member offers.",
+        "Use Special Offer Code or Corporate or Group Code only when you have the applicable official offer or eligibility.",
+        "Review property participation, availability, booking conditions, and any government, military, corporate, or group requirements before payment."
+      ],
+      "faqs": [
+        {
+          "question": "Does Hyatt have one universal public promo code?",
+          "answer": "No universal reusable Hyatt code was verified on the official pages checked. Hyatt separates member rates, special offer codes, and qualification-based government, military, corporate, and group routes."
+        },
+        {
+          "question": "Where do I enter a Hyatt special offer code?",
+          "answer": "Hyatt's official booking flow provides a Special Offer Code field under Special Rates. Use a code only when its official offer terms apply to the selected booking."
+        },
+        {
+          "question": "Who can use Hyatt corporate codes?",
+          "answer": "A corporate code is for eligible company travelers using the applicable company or Hyatt Leverage route. It is not a general public code."
+        },
+        {
+          "question": "Can anyone use a Hyatt government rate?",
+          "answer": "No. Hyatt says its government rates are for eligible travelers on government-work-related business at participating U.S. hotels and resorts."
+        }
+      ],
+      "source_name": "Hyatt official booking, offers and eligibility pages",
+      "source_url": "https://www.hyatt.com/",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
