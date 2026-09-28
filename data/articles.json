@@ -1257,6 +1257,83 @@
       "source_name": "Priceline official site and offers pages",
       "source_url": "https://www.priceline.com/",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "viator-promo-code",
+      "layout": "discount",
+      "title": "Viator Promo Code: Official App Discounts and Rewards Guide",
+      "description": "Official Viator promo-code availability, app offers, rewards eligibility, and checkout rules checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "viator promo code",
+      "target_keywords": [
+        "viator promo code",
+        "viator discount code",
+        "viator coupon code",
+        "viator coupon",
+        "viator promotion code",
+        "viator promo",
+        "viator app promo code",
+        "viator app discount"
+      ],
+      "provider": "Viator",
+      "brand_name": "Viator",
+      "faq_heading": "Viator promo code FAQs",
+      "how_to_heading": "How to use an official Viator offer",
+      "answer": "The Viator official pages checked do not display a current reusable public promo-code value for general use. Viator says exclusive promo codes and discounts are offered through the app, while Viator Rewards are account-based benefits for eligible bookings. These are access or qualification channels, not a public code list; rewards also cannot be combined with a promo code.",
+      "facts": [
+        {
+          "offer": "No current reusable public Viator promo code verified",
+          "condition": "The official Viator pages checked explain how app promo codes work but do not display a current reusable public code for general use. Codes shown through a specific official campaign must be checked against that campaign's own eligibility and expiration terms.",
+          "source_url": "https://www.viator.com/app",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Exclusive promo codes and discounts through the Viator app",
+          "condition": "Viator says it frequently offers exclusive promo codes and discounts through the Viator App. Download the official app and check the offer shown there; the offer itself states its expiration date and conditions.",
+          "source_url": "https://www.viator.com/app",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Viator Rewards for eligible account bookings",
+          "condition": "Eligible people with a Viator account can earn rewards after qualifying bookings made directly on Viator's website or app. Rewards are account-based, automatically applied at checkout unless switched off, and cannot be combined with a promo code or other offer.",
+          "source_url": "https://www.viator.com/rewards",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Official campaign or partner offers",
+          "condition": "Viator's official partner materials describe campaign-specific promotional codes or discounts when a traveler reaches Viator through an eligible partner campaign. These offers are limited to their named campaign and terms, not general public codes.",
+          "source_url": "https://partnerresources.viator.com/tiktok-promo-terms/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open the official Viator app or the official Viator site and sign in if you want to check account-based benefits.",
+        "For an app or campaign offer, open the specific official offer and read its expiration date, eligibility, and booking restrictions.",
+        "At checkout, enter an eligible promo code in the Promo Code field and apply it before payment.",
+        "If you use Viator Rewards, review the automatically applied reward and remember that Rewards cannot be combined with a promo code or other offer."
+      ],
+      "faqs": [
+        {
+          "question": "Does Viator have a current public promo code?",
+          "answer": "No current reusable public Viator code was verified on the official pages checked. Viator directs travelers to app-exclusive offers, account rewards, and specific campaign terms."
+        },
+        {
+          "question": "Where can I find Viator app promo codes?",
+          "answer": "Viator says its latest exclusive promo codes and discounts are offered through the official Viator App. Any offer shown there should be checked for its own expiration date and conditions."
+        },
+        {
+          "question": "Can Viator Rewards be combined with a promo code?",
+          "answer": "No. Viator's Rewards terms say Rewards cannot be used together with a promo code or another offer at checkout."
+        },
+        {
+          "question": "Where do I enter a Viator promo code?",
+          "answer": "Viator says promo codes are redeemed at checkout by entering the code in the Promo Code field before completing the purchase."
+        }
+      ],
+      "source_name": "Viator official app and rewards pages",
+      "source_url": "https://www.viator.com/app",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
