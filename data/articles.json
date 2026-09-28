@@ -932,6 +932,91 @@
       "source_name": "Turo official promotions and discounts help page",
       "source_url": "https://help.turo.com/en_us/promotions-and-discounts-or-guests-SkjNVElN5",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "hertz-promo-code",
+      "layout": "discount",
+      "title": "Hertz Promo Code: Official Codes and AAA Discount Guide",
+      "description": "Current official Hertz promotion codes, Pay Now offer, AAA member savings, and rental restrictions checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "hertz promo code",
+      "target_keywords": [
+        "hertz promo code",
+        "hertz discount codes",
+        "hertz coupon code",
+        "hertz promotional coupon",
+        "hertz promotion code",
+        "hertz car rental discounts",
+        "hertz rental discount",
+        "hertz aaa discount",
+        "hertz aaa discount code"
+      ],
+      "provider": "Hertz",
+      "brand_name": "Hertz",
+      "faq_heading": "Hertz promo code FAQs",
+      "how_to_heading": "How to use a current official Hertz offer",
+      "answer": "Yes. Hertz's official U.S. offer pages currently publish Promotion Code 212157 for 10% off eligible EV and hybrid rentals of at least three days, Promotion Code 210751 for one free rental day on eligible rentals of at least seven consecutive days, and PC 211748 for a complimentary one-car-class upgrade. Each offer requires advance booking, is limited to participating U.S. and Canadian locations, cannot be combined with another offer, and is valid for eligible vehicle pickups through December 31, 2026. Hertz also lists a Pay Now offer of up to 25% off eligible base rates. The Hertz AAA discount is a membership benefit—not a public coupon: AAA members must retrieve their club CDP using their ZIP code and present a AAA membership card at rental.",
+      "facts": [
+        {
+          "offer": "212157 — 10% off eligible EV and hybrid rentals",
+          "condition": "Applies to Pay Later base rate only for rentals of at least three days at participating Hertz locations in the U.S. and Canada. Reserve at least 24 hours ahead. Eligible vehicles are EVs and hybrid medium sedans. Taxes, fees, and options are excluded; the offer cannot be combined with other discounts, promotions, or special rates. Vehicle pickup must be by December 31, 2026.",
+          "source_url": "https://www.hertz.com/us/en/deals-and-offers/us-offers/save-on-ev-rentals",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "210751 — one free rental day on a rental of 7+ days",
+          "condition": "Reserve at least seven consecutive days at a participating Hertz location in the U.S. or Canada and pay for one fewer day. Convertibles, minivans, and large SUV classes are excluded. The offer cannot be combined with other discounts, promotions, or special rates, and vehicle pickup must be by December 31, 2026.",
+          "source_url": "https://www.hertz.com/us/en/deals-and-offers/us-offers/get-1-free-rental-day",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "211748 — complimentary one-car-class upgrade",
+          "condition": "Reserve a medium sedan or higher at least 24 hours ahead for a rental of one to 27 days at a participating U.S. or Canadian location. The highest upgrade is a Small SUV; Dream and electric vehicles are excluded. The offer is subject to availability, cannot be combined, and does not apply to prepay, tour, insurance-replacement, or hourly rates. Book and pick up by December 31, 2026.",
+          "source_url": "https://www.hertz.com/us/en/deals-and-offers/us-offers/enjoy-a-free-upgrade",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Pay Now — save up to 25% on eligible base rates",
+          "condition": "The discount is compared with the Pay Later base rate and varies by location, date, rental length, car class, and other factors. It is available at participating U.S. and Canadian locations with a 24-hour advance reservation, excludes Dream Collection vehicles, taxes, fees, and options, and cannot be combined with another discount, promotion, or special rate. Vehicle pickup must be by December 31, 2026.",
+          "source_url": "https://www.hertz.com/us/en/deals-and-offers/us-offers/save-up-to-25-now",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "AAA member rate — up to 20% off Pay Later base rates",
+          "condition": "This is an AAA membership benefit, not a public code. Enter a ZIP code on Hertz's official AAA page to retrieve the applicable AAA Club Discount Code (CDP), include it in the reservation, reserve at least 24 hours ahead, and present the AAA membership card at rental. The discount varies by date, location, rental length, car class, and other factors; taxes, fees, and options are excluded. Benefits are limited to participating Hertz locations in the U.S., Canada, and Puerto Rico.",
+          "source_url": "https://www.hertz.com/us/en/deals-and-offers/aaa/aaa-deals",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open the matching official Hertz offer page and start the reservation from that page so its promotion is attached to the search.",
+        "For codes 212157 or 210751, confirm that the code appears in the reservation and that the rental length, vehicle class, participating location, and pickup date meet the official terms.",
+        "For PC 211748, reserve an eligible medium sedan or higher and confirm the upgrade at the rental location because it remains subject to vehicle availability.",
+        "For an AAA rate, use the official AAA page to retrieve the club CDP from the member's ZIP code, include it in the reservation, and bring the valid AAA membership card to the rental counter.",
+        "Before payment, confirm the base-rate discount and all taxes, fees, options, exclusions, and pickup dates. Do not combine an offer with another discount or special rate when the terms prohibit it."
+      ],
+      "faqs": [
+        {
+          "question": "What official Hertz promo codes are currently listed?",
+          "answer": "Hertz currently lists 212157 for 10% off eligible EV and hybrid rentals, 210751 for one free day on eligible rentals of at least seven consecutive days, and 211748 for an eligible one-car-class upgrade. Each has its own rental, vehicle, location, and pickup-date restrictions."
+        },
+        {
+          "question": "Is the Hertz AAA discount a public coupon code?",
+          "answer": "No. It is an AAA membership benefit. Hertz instructs AAA members to enter their ZIP code to find the applicable AAA Club Discount Code, include it in the reservation, and present their AAA membership card at rental."
+        },
+        {
+          "question": "Can I combine a Hertz promotion code with another offer?",
+          "answer": "No for the offers listed in this guide. Their official terms say they cannot be combined with other discounts, promotions, offers, or special rates."
+        },
+        {
+          "question": "What does the Hertz Pay Now offer cover?",
+          "answer": "Hertz lists savings of up to 25% compared with the Pay Later base rate at participating U.S. and Canadian locations. The amount varies, taxes, fees, and options are excluded, Dream Collection vehicles are excluded, and a 24-hour advance reservation is required."
+        }
+      ],
+      "source_name": "Hertz official rental car deals and offers",
+      "source_url": "https://www.hertz.com/us/en/deals-and-offers",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
