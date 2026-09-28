@@ -1334,6 +1334,84 @@
       "source_name": "Viator official app and rewards pages",
       "source_url": "https://www.viator.com/app",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "amtrak-promo-code",
+      "layout": "discount",
+      "title": "Amtrak Promo Code: Official Student Discounts and Fare Guide",
+      "description": "Official Amtrak promo-code availability, student discount codes, eligibility, identification, and fare rules checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "amtrak promo code",
+      "target_keywords": [
+        "amtrak promo code",
+        "amtrak coupon codes",
+        "amtrak student discount code",
+        "amtrak voucher code",
+        "amtrak promo code student",
+        "amtrak discount codes student",
+        "amtrak coupon discount code",
+        "amtrak discount code",
+        "amtrak discount coupons"
+      ],
+      "provider": "Amtrak",
+      "brand_name": "Amtrak",
+      "faq_heading": "Amtrak promo code FAQs",
+      "how_to_heading": "How to use an official Amtrak discount",
+      "answer": "Amtrak's official pages checked do not show a general public promo code for everyone. They do show qualification-based student discounts, including code V814 in the Amtrak app for eligible students ages 17–24, plus regional student codes V238 and V307 on their named official pages. These are student fares with identification and route, timing, and fare restrictions, not general public coupon codes.",
+      "facts": [
+        {
+          "offer": "No current general-public Amtrak promo code verified",
+          "condition": "Amtrak's official deals and discount pages show fare discounts and qualifying offers, but the pages checked do not display a reusable promo code available to every traveler. Eligibility-based fares must be checked against their own official terms.",
+          "source_url": "https://www.amtrak.com/deals",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "V814 — 15% student discount",
+          "condition": "Amtrak says students ages 17–24 can save 15% on qualifying purchases made at least one day in advance. The discount can apply automatically when eligible travel is selected, or V814 can be entered in the Amtrak app. A valid student ID, availability limits, fare rules, route exclusions, and other restrictions apply.",
+          "source_url": "https://www.amtrak.com/student-discounts",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "V238 — New York student discount",
+          "condition": "Amtrak's official New York student page says students ages 13–25 with a valid student ID can receive 15% off the lowest Value or Flexible Fare when booked at least one day in advance. V238 is entered in the Amtrak app and applies only under the page's regional and fare terms.",
+          "source_url": "https://www.amtrak.com/new-york-student-discount",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "V307 — Midwest student discount",
+          "condition": "Amtrak's official Midwest student page provides V307 for the named Midwest student-discount program. Eligibility, participating routes, valid student identification, advance-purchase, and fare restrictions are controlled by the official page and must be checked before booking.",
+          "source_url": "https://www.amtrak.com/midwest-student-discount.html",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open the official Amtrak student or everyday-discounts page and confirm that your age, student status, route, and fare qualify.",
+        "Keep a valid student ID available; Amtrak lists student identification as an accepted form of passenger identification.",
+        "Book the qualifying trip in advance as required by the offer, then enter the applicable code in the Amtrak app when the official page instructs you to do so.",
+        "Review route exclusions, train class, availability, cancellation rules, advance-purchase requirements, and the final fare before payment."
+      ],
+      "faqs": [
+        {
+          "question": "Does Amtrak have a general public promo code?",
+          "answer": "No general-public reusable Amtrak promo code was verified on the official pages checked. The current codes listed here are qualification-based student offers."
+        },
+        {
+          "question": "Who can use Amtrak code V814?",
+          "answer": "Amtrak's national student page identifies students ages 17–24, with the required student status and identification, for the qualifying student discount. The booking must also meet the page's advance-purchase, fare, route, and availability rules."
+        },
+        {
+          "question": "Where do I enter an Amtrak student code?",
+          "answer": "The official student pages instruct eligible travelers to enter the applicable code in the Amtrak app when booking. Some qualifying discounts can also apply automatically when eligible travel is selected."
+        },
+        {
+          "question": "What proof is needed for an Amtrak student discount?",
+          "answer": "Amtrak lists student identification among acceptable passenger identification. Carry valid identification and check the offer's own eligibility terms before travel."
+        }
+      ],
+      "source_name": "Amtrak official deals and student-discount pages",
+      "source_url": "https://www.amtrak.com/deals",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
