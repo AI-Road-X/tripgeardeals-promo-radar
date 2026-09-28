@@ -1638,6 +1638,78 @@
       "source_name": "Agoda official U.S. deals page",
       "source_url": "https://www.agoda.com/deals?hl=en-us",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "hotels-com-promo-code",
+      "layout": "discount",
+      "title": "Hotels.com Promo Code: Official Coupons and Member Prices Guide",
+      "description": "Official Hotels.com promo-code availability, coupon checkout rules, app savings, and member-price eligibility checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "hotels com promo code",
+      "target_keywords": [
+        "hotels com promo code",
+        "hotels com coupon",
+        "hotels com coupon code"
+      ],
+      "provider": "Hotels.com",
+      "brand_name": "Hotels.com",
+      "faq_heading": "Hotels.com promo code FAQs",
+      "how_to_heading": "How to use an official Hotels.com coupon or member price",
+      "answer": "The Hotels.com official pages checked do not verify one universal reusable public promo code for every booking. Hotels.com does explain how eligible coupons work: choose Pay Now, select a property marked for coupon use, and apply the coupon at checkout. Other official savings are qualification or access based, including signed-in Member Prices, app discounts, and One Key benefits.",
+      "facts": [
+        {
+          "offer": "No universal reusable Hotels.com promo code verified",
+          "condition": "The official Hotels.com coupon page explains the redemption workflow but does not display one code that applies to every booking on the page checked. Coupon eligibility depends on the selected property, payment option, and offer terms.",
+          "source_url": "https://www.hotels.com/lp/b/coupons",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Eligible Hotels.com coupons at Pay Now checkout",
+          "condition": "Hotels.com says to choose a property, select Reserve, choose Pay Now at payment, and click “Apply a coupon.” Hotels and vacation rentals that collect payment at the property are not eligible for coupons under the official instructions.",
+          "source_url": "https://www.hotels.com/lp/b/coupons",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Member Prices for signed-in app users and One Key members",
+          "condition": "Hotels.com says Member Prices are available to app users and One Key members when signed in, and only on selected hotels and selected dates. Eligibility and full terms apply to the displayed booking.",
+          "source_url": "https://www.hotels.com/deals/member-deals",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Hotels.com app discounts and member perks",
+          "condition": "Hotels.com says the app can provide discounts on selected hotels and app-exclusive offers and perks for members. This is an app or account access route, not a universal public code.",
+          "source_url": "https://www.hotels.com/app",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open Hotels.com and search for the property and dates you want.",
+        "Check whether the property is eligible for a coupon and choose Pay Now when the official coupon rules require it.",
+        "At payment, click “Apply a coupon,” enter the eligible official code, and apply it before completing the booking.",
+        "If using Member Prices or app savings, sign in first and review the selected hotel's displayed price, dates, taxes, fees, and cancellation terms."
+      ],
+      "faqs": [
+        {
+          "question": "Does Hotels.com have one universal public promo code?",
+          "answer": "No universal reusable Hotels.com code was verified on the official coupon page checked. Coupon eligibility depends on the selected property, payment option, and offer terms."
+        },
+        {
+          "question": "Which Hotels.com bookings can use a coupon?",
+          "answer": "Hotels.com says the coupon workflow requires selecting Pay Now. Properties and vacation rentals that collect payment at the property are not eligible for coupons under the official instructions."
+        },
+        {
+          "question": "Who can access Hotels.com Member Prices?",
+          "answer": "Hotels.com says app users and One Key members can access Member Prices when signed in, on selected hotels and selected dates."
+        },
+        {
+          "question": "Where do I enter a Hotels.com promo code?",
+          "answer": "On the payment step, choose “Apply a coupon,” enter the eligible code, and apply it before completing the booking."
+        }
+      ],
+      "source_name": "Hotels.com official coupons and member-deals pages",
+      "source_url": "https://www.hotels.com/lp/b/coupons",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
