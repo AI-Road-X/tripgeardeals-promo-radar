@@ -1797,6 +1797,86 @@
       "source_name": "HotelTonight official FAQ",
       "source_url": "https://www.hoteltonight.com/faq",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "hilton-promo-code",
+      "layout": "discount",
+      "title": "Hilton Promo Code: Official Honors Rates and Discount Guide",
+      "description": "Official Hilton promo-code availability, Honors rates, corporate and AAA eligibility, and advance-purchase offers checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "hilton promo code",
+      "target_keywords": [
+        "hilton promo code",
+        "hilton coupon codes",
+        "hilton hotel promo code",
+        "hilton coupons",
+        "hilton hotel coupons",
+        "promotion code for hilton hotels",
+        "hilton offer code",
+        "hilton discount codes",
+        "hilton hotel discount codes",
+        "hilton discount codes corporate",
+        "hilton honors promo code"
+      ],
+      "provider": "Hilton",
+      "brand_name": "Hilton",
+      "faq_heading": "Hilton promo code FAQs",
+      "how_to_heading": "How to use an official Hilton rate or offer",
+      "answer": "The Hilton official pages checked do not verify one universal reusable public promo code. Hilton's current savings routes are qualification or access based: Hilton Honors member rates, advance-purchase offers, corporate discount rates, and AAA/CAA member offers. The required account, membership, corporate, or association eligibility must be checked before booking.",
+      "facts": [
+        {
+          "offer": "No universal reusable Hilton promo code verified",
+          "condition": "Hilton's official offers and help pages list member, corporate, association, and promotion-based rates, but the pages checked do not display one reusable code available to every traveler. Offer terms and availability apply to the selected booking.",
+          "source_url": "https://www.hilton.com/en/offers/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Hilton Honors member rates and advance-purchase offers",
+          "condition": "Hilton says Hilton Honors members can access member rates and official advance-purchase offers when booking through Hilton channels. The Honors Discount rate cannot be combined with other promotions, offers, or discounts and is not valid for existing reservations or groups.",
+          "source_url": "https://www.hilton.com/en/hilton-honors/terms/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Corporate discount rate",
+          "condition": "Hilton explains that corporate discount rates can be applied through the Hilton.com booking flow or a Hilton Honors account when the traveler has the applicable corporate eligibility. This is a qualification-based rate, not a public code.",
+          "source_url": "https://www.hilton.com/en/help-center/reservations/hilton-honors-rates-and-discounts/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "AAA/CAA member offers",
+          "condition": "Hilton provides a dedicated AAA/CAA offers page for eligible members. The member offer and its booking conditions must be checked on the official page; membership eligibility is required.",
+          "source_url": "https://www.hilton.com/en/p/aaa-caa-offers/",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open Hilton's official offers page and choose the rate or offer that matches your membership or eligibility.",
+        "Sign in to Hilton Honors when the selected member rate requires an account, or use the official corporate or AAA/CAA route when eligible.",
+        "Check the selected hotel's dates, room type, advance-purchase or cancellation terms, and whether the rate can be combined with another offer.",
+        "Complete the booking through Hilton.com, the Hilton Honors app, or the official channel stated by the offer, then review the final price and conditions."
+      ],
+      "faqs": [
+        {
+          "question": "Does Hilton have one universal public promo code?",
+          "answer": "No universal reusable Hilton code was verified on the official pages checked. Hilton's savings routes are tied to member, corporate, AAA/CAA, advance-purchase, or specific promotion eligibility."
+        },
+        {
+          "question": "Is the Hilton Honors discount a public promo code?",
+          "answer": "No. It is a member rate accessed through Hilton channels after signing in or joining Hilton Honors, subject to the official terms."
+        },
+        {
+          "question": "Who can use Hilton corporate discount rates?",
+          "answer": "Travelers with the applicable corporate eligibility can use the corporate discount route described by Hilton. The rate is not a general public code and its requirements must be met at booking."
+        },
+        {
+          "question": "Can Hilton Honors rates be combined with other discounts?",
+          "answer": "Hilton's terms say the Hilton Honors Discount rate cannot be combined with other promotions, offers, or discounts and is not valid for existing reservations or groups."
+        }
+      ],
+      "source_name": "Hilton official offers and rates pages",
+      "source_url": "https://www.hilton.com/en/offers/",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
