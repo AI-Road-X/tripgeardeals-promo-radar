@@ -1710,6 +1710,93 @@
       "source_name": "Hotels.com official coupons and member-deals pages",
       "source_url": "https://www.hotels.com/lp/b/coupons",
       "fetched_at": "2026-09-28T00:00:00Z"
+    },
+    {
+      "slug": "hotel-tonight-promo-code",
+      "layout": "discount",
+      "title": "HotelTonight Promo Code: Official Credits, Referrals, and Deals Guide",
+      "description": "Official HotelTonight promo-code availability, referral credits, Daily Drop deals, HT Perks, and redemption rules checked on September 28, 2026.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "updated_at": "2026-09-28T00:00:00Z",
+      "target_keyword": "hotel tonight promo code",
+      "target_keywords": [
+        "hotel tonight promo code",
+        "hotel tonight coupon",
+        "hotel tonight coupon code",
+        "promo code for hoteltonight",
+        "hotel tonight sign up promo code",
+        "hoteltonight promo code",
+        "hoteltonight promo codes",
+        "hotel tonight promo",
+        "hotel tonight code",
+        "hotel tonight promo code free room",
+        "hotel tonight discount code",
+        "hoteltonight discount code"
+      ],
+      "provider": "HotelTonight",
+      "brand_name": "HotelTonight",
+      "faq_heading": "HotelTonight promo code FAQs",
+      "how_to_heading": "How to use an official HotelTonight promotion",
+      "answer": "HotelTonight's official pages checked do not verify one universal reusable public promo code. Official savings are account or promotion based: a code may come from an eligible referral or promotion, Daily Drop is personalized and time-limited, and HT Perks can unlock app or member discounts. HotelTonight says promotional codes are single-use and promotions cannot be combined.",
+      "facts": [
+        {
+          "offer": "No universal reusable HotelTonight promo code verified",
+          "condition": "HotelTonight's official FAQ explains how to redeem a promotion code but does not publish one general code for every customer on the page checked. A code's own promotion terms control eligibility, timing, location, minimum spend, and other restrictions.",
+          "source_url": "https://www.hoteltonight.com/faq",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Official promo codes are single-use and non-stackable",
+          "condition": "HotelTonight says a promo code can be redeemed once and promotions cannot be combined. Codes can fail when expired, already redeemed, claimed by the maximum number of people, or when the booking does not qualify under the specific promotion.",
+          "source_url": "https://www.hoteltonight.com/faq",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Referral code rewards for eligible new users",
+          "condition": "HotelTonight says a referral code can apply to a first booking for an invited person who has not previously used HotelTonight and meets the qualifying booking requirements. Referral codes are for personal, non-commercial use and the promotion states the amount and any minimum value.",
+          "source_url": "https://www.hoteltonight.com/faq",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "Daily Drop personalized deal",
+          "condition": "HotelTonight says Daily Drop is offered only for certain destinations and search parameters. Once unlocked, the deal is available for 15 minutes, sometimes less if availability changes.",
+          "source_url": "https://www.hoteltonight.com/faq",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        },
+        {
+          "offer": "HT Perks and app discounts",
+          "condition": "HotelTonight says its Perks levels can provide extra-discounted rates and that Level 1 can save an extra 5% on the already-low room rate in the app, based on location. Participating-hotel and account terms apply.",
+          "source_url": "https://www.hoteltonight.com/faq",
+          "fetched_at": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "steps": [
+        "Open HotelTonight's official app or site and sign in to check account, referral, or HT Perks eligibility.",
+        "If you have an eligible promotion or referral code, open your profile and tap Redeem next to Promo Code, or enter it at checkout as HotelTonight instructs.",
+        "Check that the booking meets the promotion's customer, location, timing, minimum-value, and availability conditions before applying the code.",
+        "Apply only one eligible code, confirm the discount or credit appears, and review the final total and cancellation terms before booking."
+      ],
+      "faqs": [
+        {
+          "question": "Does HotelTonight have one universal public promo code?",
+          "answer": "No universal reusable HotelTonight code was verified on the official pages checked. Promotions are tied to specific customer, referral, account, location, timing, or booking conditions."
+        },
+        {
+          "question": "Where do I enter a HotelTonight promo code?",
+          "answer": "HotelTonight says to tap Promo code at checkout, or open your account profile and tap Redeem next to Promo Code to save a code for later."
+        },
+        {
+          "question": "Can I use more than one HotelTonight promotion?",
+          "answer": "No. HotelTonight says promotions cannot be combined and a promo code can be redeemed only once."
+        },
+        {
+          "question": "How does a HotelTonight referral code work?",
+          "answer": "An invited person must be a new HotelTonight user, enter the referral code, and complete the qualifying booking requirements stated in the promotion."
+        }
+      ],
+      "source_name": "HotelTonight official FAQ",
+      "source_url": "https://www.hoteltonight.com/faq",
+      "fetched_at": "2026-09-28T00:00:00Z"
     }
   ]
 }
