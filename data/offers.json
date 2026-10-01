@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-01T05:52:32+00:00",
+  "generated_at": "2026-10-01T13:13:47+00:00",
   "offers": [
     {
       "provider": "Bounce",
       "title": "5% off your first booking with code FIRSTBOOKING",
       "offer_url": "https://bounce.com/ls/coupons",
       "source_url": "https://bounce.com/ls/coupons",
-      "fetched_at": "2026-10-01T05:52:32+00:00"
+      "fetched_at": "2026-10-01T13:13:47+00:00"
     },
     {
       "provider": "Radical Storage",
       "title": "10% off your next luggage storage booking with code blog10",
       "offer_url": "https://radicalstorage.com/travel/radical-storage-promo-code/",
       "source_url": "https://radicalstorage.com/travel/radical-storage-promo-code/",
-      "fetched_at": "2026-10-01T05:52:32+00:00"
+      "fetched_at": "2026-10-01T13:13:47+00:00"
     },
     {
       "provider": "Holafly",
@@ -44,21 +44,21 @@
       "status": "ok",
       "offers": 0,
       "source_url": "https://esim.holafly.com/data-plans/holafly-esim-discount-code/",
-      "fetched_at": "2026-10-01T05:52:33+00:00"
+      "fetched_at": "2026-10-01T13:13:48+00:00"
     },
     {
       "provider": "Nomad eSIM",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.nomadesim.com/shop/limited-time-offer",
-      "fetched_at": "2026-10-01T05:52:34+00:00"
+      "fetched_at": "2026-10-01T13:13:49+00:00"
     },
     {
       "provider": "aloSIM",
       "status": "ok",
       "offers": 0,
       "source_url": "https://alosim.com/refer-and-earn/",
-      "fetched_at": "2026-10-01T05:52:34+00:00"
+      "fetched_at": "2026-10-01T13:13:49+00:00"
     },
     {
       "provider": "Saily",
@@ -83,82 +83,84 @@
       "status": "ok",
       "offers": 1,
       "source_url": "https://bounce.com/ls/coupons",
-      "fetched_at": "2026-10-01T05:52:35+00:00"
+      "fetched_at": "2026-10-01T13:13:50+00:00"
     },
     {
       "provider": "Radical Storage",
       "status": "ok",
       "offers": 1,
       "source_url": "https://radicalstorage.com/travel/radical-storage-promo-code/",
-      "fetched_at": "2026-10-01T05:52:35+00:00"
+      "fetched_at": "2026-10-01T13:13:51+00:00"
     },
     {
       "provider": "LuggageHero",
       "status": "ok",
       "offers": 0,
       "source_url": "https://luggagehero.com/sitemap/",
-      "fetched_at": "2026-10-01T05:52:41+00:00"
+      "fetched_at": "2026-10-01T13:13:52+00:00"
     },
     {
       "provider": "Stasher",
       "status": "ok",
       "offers": 0,
       "source_url": "https://stasher.com/blog/stasher-promo-code-save-on-luggage-storage-while-travelling",
-      "fetched_at": "2026-10-01T05:52:42+00:00"
+      "fetched_at": "2026-10-01T13:13:53+00:00"
     },
     {
       "provider": "Tortuga",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.tortugabackpacks.com/pages/tortuga-discount-codes",
-      "fetched_at": "2026-10-01T05:52:42+00:00"
+      "fetched_at": "2026-10-01T13:13:54+00:00"
     },
     {
       "provider": "Matador",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.matadorequipment.com/collections/sale",
-      "fetched_at": "2026-10-01T05:52:43+00:00"
+      "fetched_at": "2026-10-01T13:13:55+00:00"
     },
     {
       "provider": "Gravel",
       "status": "ok",
       "offers": 0,
       "source_url": "https://gravel.co/collections/sale",
-      "fetched_at": "2026-10-01T05:52:44+00:00"
+      "fetched_at": "2026-10-01T13:13:56+00:00"
     },
     {
       "provider": "Pakt",
       "status": "ok",
       "offers": 0,
       "source_url": "https://paktbags.com/collections/warehouse-sale-2025",
-      "fetched_at": "2026-10-01T05:52:45+00:00"
+      "fetched_at": "2026-10-01T13:13:57+00:00"
     },
     {
       "provider": "CabinZero",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.cabinzero.com/",
-      "fetched_at": "2026-10-01T05:52:46+00:00"
+      "fetched_at": "2026-10-01T13:13:58+00:00"
     },
     {
       "provider": "NOMATIC",
-      "status": "fetch_error",
-      "detail": "HTTPError"
+      "status": "ok",
+      "offers": 0,
+      "source_url": "https://www.nomatic.com/collections/sale",
+      "fetched_at": "2026-10-01T13:13:59+00:00"
     },
     {
       "provider": "SafetyWing",
       "status": "ok",
       "offers": 0,
       "source_url": "https://safetywing.com/nomad-insurance",
-      "fetched_at": "2026-10-01T05:52:48+00:00"
+      "fetched_at": "2026-10-01T13:14:00+00:00"
     },
     {
       "provider": "Heymondo",
       "status": "ok",
       "offers": 0,
       "source_url": "https://heymondo.com/sitemap/",
-      "fetched_at": "2026-10-01T05:52:49+00:00"
+      "fetched_at": "2026-10-01T13:14:01+00:00"
     },
     {
       "provider": "The Parking Spot",
@@ -170,26 +172,28 @@
       "status": "ok",
       "offers": 0,
       "source_url": "https://spothero.com/about/promo-code",
-      "fetched_at": "2026-10-01T05:52:49+00:00"
+      "fetched_at": "2026-10-01T13:14:02+00:00"
     },
     {
       "provider": "WallyPark",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.wallypark.com/",
-      "fetched_at": "2026-10-01T05:52:50+00:00"
+      "fetched_at": "2026-10-01T13:14:03+00:00"
     },
     {
       "provider": "BÉIS",
-      "status": "robots_blocked_or_unavailable",
-      "detail": "robots.txt unavailable: HTTPError"
+      "status": "ok",
+      "offers": 0,
+      "source_url": "https://beistravel.com/pages/promotions",
+      "fetched_at": "2026-10-01T13:14:03+00:00"
     },
     {
       "provider": "Travelpro",
       "status": "ok",
       "offers": 0,
       "source_url": "https://travelpro.com/",
-      "fetched_at": "2026-10-01T05:52:51+00:00"
+      "fetched_at": "2026-10-01T13:14:05+00:00"
     },
     {
       "provider": "Monos",
@@ -201,14 +205,14 @@
       "status": "ok",
       "offers": 0,
       "source_url": "https://help.parkwhiz.com/support/solutions/articles/60001010526-how-do-i-apply-a-discount-code-",
-      "fetched_at": "2026-10-01T05:52:53+00:00"
+      "fetched_at": "2026-10-01T13:14:07+00:00"
     },
     {
       "provider": "CALPAK",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.calpaktravel.com/collections/sale",
-      "fetched_at": "2026-10-01T05:52:54+00:00"
+      "fetched_at": "2026-10-01T13:14:08+00:00"
     },
     {
       "provider": "Turo",
@@ -220,7 +224,7 @@
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.hertz.com/us/en/deals-and-offers",
-      "fetched_at": "2026-10-01T05:52:55+00:00"
+      "fetched_at": "2026-10-01T13:14:09+00:00"
     },
     {
       "provider": "Expedia",
@@ -232,14 +236,14 @@
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.enterprise.com/en/car-rental/deals.html",
-      "fetched_at": "2026-10-01T05:52:55+00:00"
+      "fetched_at": "2026-10-01T13:14:10+00:00"
     },
     {
       "provider": "Priceline",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.priceline.com/",
-      "fetched_at": "2026-10-01T05:52:56+00:00"
+      "fetched_at": "2026-10-01T13:14:11+00:00"
     },
     {
       "provider": "Viator",
@@ -251,7 +255,7 @@
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.amtrak.com/deals",
-      "fetched_at": "2026-10-01T05:52:56+00:00"
+      "fetched_at": "2026-10-01T13:14:12+00:00"
     },
     {
       "provider": "GetYourGuide",
@@ -263,14 +267,14 @@
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.klook.com/en-US/deals/",
-      "fetched_at": "2026-10-01T05:52:58+00:00"
+      "fetched_at": "2026-10-01T13:14:14+00:00"
     },
     {
       "provider": "Agoda",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.agoda.com/deals?hl=en-us",
-      "fetched_at": "2026-10-01T05:52:58+00:00"
+      "fetched_at": "2026-10-01T13:14:14+00:00"
     },
     {
       "provider": "Hotels.com",
@@ -282,19 +286,19 @@
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.hoteltonight.com/faq",
-      "fetched_at": "2026-10-01T05:53:11+00:00"
+      "fetched_at": "2026-10-01T13:14:27+00:00"
     },
     {
       "provider": "Hilton",
       "status": "ok",
       "offers": 0,
       "source_url": "https://www.hilton.com/en/offers/",
-      "fetched_at": "2026-10-01T05:53:11+00:00"
+      "fetched_at": "2026-10-01T13:14:28+00:00"
     },
     {
       "provider": "RIU",
       "status": "fetch_error",
-      "detail": "TimeoutError"
+      "detail": "ValueError"
     },
     {
       "provider": "Marriott",
